@@ -1,5 +1,4 @@
 
-Of course. Here is a comprehensive README file for your GenAI Intelligence Platform project.
 
 GenAI Intelligence Platform
 Transform the firehose of GenAI news, tools, and research into actionable, context-aware intelligence for your product and engineering teams. This platform automates the discovery, analysis, and evaluation of new AI tools, separating high-signal opportunities from marketing hype.
