@@ -1,0 +1,242 @@
+{
+  "706e21494b39ac67976d99cbc512d54e": {
+    "id": "706e21494b39ac67976d99cbc512d54e",
+    "name": "modern-tar",
+    "description": "Modern-tar is a zero-dependency tar library designed for use in all JavaScript runtimes. It allows users to create and manipulate tar archives without relying on external dependencies.",
+    "tool_category": "library",
+    "keywords": [
+      "github",
+      "opensource",
+      "code"
+    ],
+    "implementation_keywords": [
+      "git",
+      "clone",
+      "install"
+    ],
+    "source": "HackerNews Show",
+    "source_url": "https://github.com/ayuhito/modern-tar",
+    "content_type": "TOOL",
+    "why_important": "Open source modern-tar gaining traction on GitHub",
+    "immediate_action": "git clone https://github.com/ayuhito/modern-tar and review README",
+    "implementation_effort": "days",
+    "maturity_level": "beta",
+    "signal_strength": "moderate",
+    "ingested_at": "2025-09-30T14:45:52.873168"
+  },
+  "f21dbf4f0d5170a14c74e9dc4c169ac6": {
+    "id": "f21dbf4f0d5170a14c74e9dc4c169ac6",
+    "name": "Smallest static site generator (sssg.sh)",
+    "description": "The tool \"sssg.sh\" is a minimal static site generator created as a shell script for generating blogs with low overhead in terms of file size and external tool dependencies. It aims to provide a simple solution for converting thoughts into a blog without unnecessary complexities.",
+    "tool_category": "tool",
+    "keywords": [
+      "hackernews",
+      "launch",
+      "demo"
+    ],
+    "source": "HackerNews Show",
+    "source_url": "https://ad301.org/blog/ssg.php",
+    "content_type": "TOOL",
+    "why_important": "Smallest static site generator (sssg.sh) showcased by developer on HackerNews",
+    "immediate_action": "Check out the demo and provide feedback",
+    "implementation_effort": "days",
+    "maturity_level": "experimental",
+    "signal_strength": "moderate",
+    "ingested_at": "2025-09-30T14:45:53.654177"
+  },
+  "e02c6c180d2e7ae5f1f8a2a59a474c0d": {
+    "id": "e02c6c180d2e7ae5f1f8a2a59a474c0d",
+    "name": "We Move as One (Game)",
+    "description": "\"We Move as One\" is a game that allows players to collaborate and move together as a single entity, emphasizing teamwork and coordination.",
+    "tool_category": "tool",
+    "keywords": [
+      "hackernews",
+      "launch",
+      "demo"
+    ],
+    "source": "HackerNews Show",
+    "source_url": "https://stopthrowingrocks.github.io/wma1/",
+    "content_type": "TOOL",
+    "why_important": "We Move as One (Game) showcased by developer on HackerNews",
+    "immediate_action": "Check out the demo and provide feedback",
+    "implementation_effort": "days",
+    "maturity_level": "experimental",
+    "signal_strength": "moderate",
+    "ingested_at": "2025-09-30T14:45:54.285136"
+  },
+  "cf9c23f6f70fd5904b5efb9b44925356": {
+    "id": "cf9c23f6f70fd5904b5efb9b44925356",
+    "name": "txn0-agent-flows",
+    "description": "The tool described in the RSS feed entry is a fully autonomous agent system built by a power systems engineer using AI and no-code tools like N8n and GPT. This system validates text submissions, checks for duplicates, and sends token airdrops on-chain as acknowledgments, with actions logged in a public ledger. Additional supporting agents include Drop Announcer for posting confirmed drops and Bug Fixer for resolving stuck rows.",
+    "tool_category": "library",
+    "keywords": [
+      "github",
+      "opensource",
+      "code"
+    ],
+    "implementation_keywords": [
+      "git",
+      "clone",
+      "install"
+    ],
+    "source": "HackerNews Show",
+    "source_url": "https://github.com/GlitchWriter/txn0-agent-flows",
+    "content_type": "TOOL",
+    "why_important": "Open source txn0-agent-flows gaining traction on GitHub",
+    "immediate_action": "git clone https://github.com/GlitchWriter/txn0-agent-flows and review README",
+    "implementation_effort": "days",
+    "maturity_level": "beta",
+    "signal_strength": "moderate",
+    "ingested_at": "2025-09-30T14:45:55.456023"
+  },
+  "6675ef4c459899f39745517d53dbf307": {
+    "id": "6675ef4c459899f39745517d53dbf307",
+    "name": "NextMin",
+    "description": "NextMin is a developer toolkit that enables schema-driven development by providing features such as generating CRUD APIs from JSON schemas, an admin panel built with React and Tailwind, API router with authentication, S3-compatible file storage, hot reloading, and monorepo compatibility.",
+    "tool_category": "tool",
+    "keywords": [
+      "hackernews",
+      "launch",
+      "demo"
+    ],
+    "source": "HackerNews Show",
+    "source_url": "https://nextmin.gscodes.dev/",
+    "content_type": "TOOL",
+    "why_important": "NextMin showcased by developer on HackerNews",
+    "immediate_action": "Check out the demo and provide feedback",
+    "implementation_effort": "days",
+    "maturity_level": "experimental",
+    "signal_strength": "moderate",
+    "ingested_at": "2025-09-30T14:45:56.206329"
+  },
+  "71c3b64a5d6f647ca68b3f64ff75588f": {
+    "id": "71c3b64a5d6f647ca68b3f64ff75588f",
+    "name": "I built a tool to monitor a keyword of your choice on Hacker News",
+    "description": "This tool allows users to monitor a specific keyword on Hacker News, providing a way to track and stay updated on relevant discussions and news related to that keyword.",
+    "tool_category": "tool",
+    "keywords": [
+      "hackernews",
+      "launch",
+      "demo"
+    ],
+    "source": "HackerNews Show",
+    "source_url": "https://engagementtracker.fly.dev/login",
+    "content_type": "TOOL",
+    "why_important": "I built a tool to monitor a keyword of your choice on Hacker News showcased by developer on HackerNews",
+    "immediate_action": "Check out the demo and provide feedback",
+    "implementation_effort": "days",
+    "maturity_level": "experimental",
+    "signal_strength": "moderate",
+    "ingested_at": "2025-09-30T14:45:56.883273"
+  },
+  "1ba3993328484e7077514195527458b3": {
+    "id": "1ba3993328484e7077514195527458b3",
+    "name": "An official Wiki speedrun game in Roblox",
+    "description": "The tool is an official Wiki speedrun game in Roblox that simulates navigating from one Wikipedia article to another using links, creating a 3D navigable maze that responds to player choices.",
+    "tool_category": "tool",
+    "keywords": [
+      "hackernews",
+      "launch",
+      "demo"
+    ],
+    "source": "HackerNews Show",
+    "source_url": "https://www.roblox.com/games/99320538920886/UPD-Wikispeedia-the-Wikipedia-Speedrunning-Game",
+    "content_type": "TOOL",
+    "why_important": "An official Wiki speedrun game in Roblox showcased by developer on HackerNews",
+    "immediate_action": "Check out the demo and provide feedback",
+    "implementation_effort": "days",
+    "maturity_level": "experimental",
+    "signal_strength": "moderate",
+    "ingested_at": "2025-09-30T14:45:57.564059"
+  },
+  "124f30150a73fd2c996c1e7b4083c1be": {
+    "id": "124f30150a73fd2c996c1e7b4083c1be",
+    "name": "adv-cache",
+    "description": "Advcache is an open-source tool that functions as a high-speed HTTP cache and reverse proxy, outperforming Traefik by 2-3 times and Caddy by 10-15 times. It offers easy setup and optimal performance with default configurations.",
+    "tool_category": "library",
+    "keywords": [
+      "github",
+      "opensource",
+      "code"
+    ],
+    "implementation_keywords": [
+      "git",
+      "clone",
+      "install"
+    ],
+    "source": "HackerNews Show",
+    "source_url": "https://github.com/Borislavv/adv-cache",
+    "content_type": "TOOL",
+    "why_important": "Open source adv-cache gaining traction on GitHub",
+    "immediate_action": "git clone https://github.com/Borislavv/adv-cache and review README",
+    "implementation_effort": "days",
+    "maturity_level": "beta",
+    "signal_strength": "moderate",
+    "ingested_at": "2025-09-30T14:45:58.308959"
+  },
+  "22c7a46c156a31550a53b87fd8ff468f": {
+    "id": "22c7a46c156a31550a53b87fd8ff468f",
+    "name": "container-demo",
+    "description": "The tool \"Reifying infra with comptime, deploytime, runtime\" aims to streamline the management of infrastructure by integrating capabilities at compile time, deployment time, and runtime.",
+    "tool_category": "library",
+    "keywords": [
+      "github",
+      "opensource",
+      "code"
+    ],
+    "implementation_keywords": [
+      "git",
+      "clone",
+      "install"
+    ],
+    "source": "HackerNews Show",
+    "source_url": "https://github.com/JadenSimon/container-demo",
+    "content_type": "TOOL",
+    "why_important": "Open source container-demo gaining traction on GitHub",
+    "immediate_action": "git clone https://github.com/JadenSimon/container-demo and review README",
+    "implementation_effort": "days",
+    "maturity_level": "beta",
+    "signal_strength": "moderate",
+    "ingested_at": "2025-09-30T14:45:59.239959"
+  },
+  "bdf363bb369801fe7f28cdaf0dd70b91": {
+    "id": "bdf363bb369801fe7f28cdaf0dd70b91",
+    "name": "PixArmory",
+    "description": "PixArmory is a browser-based AI image editor that offers background removal, anime/cartoon filters, style transfer, and image upscaling functionalities in one place, akin to a Swiss Army Knife for image editing.",
+    "tool_category": "tool",
+    "keywords": [
+      "hackernews",
+      "launch",
+      "demo"
+    ],
+    "source": "HackerNews Show",
+    "source_url": "https://pixarmory.org",
+    "content_type": "TOOL",
+    "why_important": "PixArmory showcased by developer on HackerNews",
+    "immediate_action": "Check out the demo and provide feedback",
+    "implementation_effort": "days",
+    "maturity_level": "experimental",
+    "signal_strength": "moderate",
+    "ingested_at": "2025-09-30T14:45:59.914256"
+  },
+  "d61242462d1f8f034b8a56a1dabecba8": {
+    "id": "d61242462d1f8f034b8a56a1dabecba8",
+    "name": "Claude 3.5",
+    "description": "ai-sdk-cpp is a modern C++20 AI SDK that provides unified calls to OpenAI (GPT-4o) and Anthropic (Claude 3.5) through a single API, offering features such as streaming, multi-turn chat, error handling, and tool calling for hitting real APIs synchronously or asynchronously.",
+    "tool_category": "tool",
+    "keywords": [
+      "claude 3.5",
+      "claude",
+      "3.5"
+    ],
+    "source": "HackerNews Search",
+    "source_url": "https://news.ycombinator.com/item?id=44412726",
+    "content_type": "TOOL",
+    "why_important": "Claude 3.5 is gaining attention in the AI community",
+    "immediate_action": "Visit https://news.ycombinator.com/item?id=44412726 to explore Claude 3.5 capabilities",
+    "implementation_effort": "unknown",
+    "maturity_level": "beta",
+    "signal_strength": "high",
+    "ingested_at": "2025-09-30T14:46:23.591656"
+  }
+}

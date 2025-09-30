@@ -1,0 +1,1447 @@
+{
+  "2d72c32d1bfb058101075d6888c56ac7": {
+    "headline": "opencode zen",
+    "signal_type": "company_news",
+    "key_entities": [
+      "opencode team",
+      "AI models"
+    ],
+    "impact_on_ai_landscape": "The recommendation of AI models by the opencode team suggests a potential shift towards more efficient and effective development practices in the AI field.",
+    "tools_mentioned": [],
+    "actionable_insights": [
+      "Developers may benefit from exploring the AI models recommended by the opencode team to enhance their development projects."
+    ],
+    "affects_workflows": [
+      "development"
+    ],
+    "importance": "moderate",
+    "time_horizon": "immediate",
+    "id": "2d72c32d1bfb058101075d6888c56ac7",
+    "source_url": "https://www.producthunt.com/products/opencode",
+    "source": "Product Hunt AI",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T10:02:29.348828"
+  },
+  "aae91eb1c84c96ebbe45bc28993fb862": {
+    "headline": "The Update on GPT5 Reminds Us, Again & the Hard Way, the Risks of Using Closed AI",
+    "signal_type": "regulation",
+    "key_entities": [
+      "OpenAI",
+      "GPT-5",
+      "Open Source AI",
+      "Llama",
+      "DeepSeek",
+      "Qwen",
+      "GPT-OSS",
+      "Phi"
+    ],
+    "impact_on_ai_landscape": "The incident highlights the risks associated with closed AI systems and emphasizes the importance of transparency, user consent, and open-source alternatives in the AI industry.",
+    "tools_mentioned": [
+      "GPT-5",
+      "GPT-4o",
+      "gpt-5-chat-safety",
+      "Qwen3-Next"
+    ],
+    "actionable_insights": [
+      "Consider the implications of using closed AI systems and evaluate the benefits of open-source AI alternatives for increased customization, privacy, security, transparency, and cost-effectiveness."
+    ],
+    "affects_workflows": [
+      "customer_support",
+      "development",
+      "content"
+    ],
+    "importance": "high",
+    "time_horizon": "immediate",
+    "id": "aae91eb1c84c96ebbe45bc28993fb862",
+    "source_url": "https://www.reddit.com/r/LLMDevs/comments/1ntmyra/the_update_on_gpt5_reminds_us_again_the_hard_way/",
+    "source": "Reddit AI Mix",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T10:02:36.587124"
+  },
+  "dcb29c3828d299b9477099e8bd41452a": {
+    "headline": "Why RAG alone isn\u2019t enough",
+    "signal_type": "research",
+    "key_entities": [
+      "Mem0",
+      "Letta",
+      "Zep"
+    ],
+    "impact_on_ai_landscape": "The article highlights the importance of memory in AI systems for persistence, evolution, and contextual understanding, indicating a shift towards incorporating memory logic alongside retrieval systems like RAG.",
+    "tools_mentioned": [
+      "Mem0",
+      "Letta",
+      "Zep"
+    ],
+    "actionable_insights": [
+      "Consider integrating memory capabilities in AI systems to enhance persistence, update facts, and improve contextual understanding for more human-like interactions."
+    ],
+    "affects_workflows": [
+      "development"
+    ],
+    "importance": "high",
+    "time_horizon": "future",
+    "id": "dcb29c3828d299b9477099e8bd41452a",
+    "source_url": "https://www.reddit.com/r/LLMDevs/comments/1ntkjw4/why_rag_alone_isnt_enough/",
+    "source": "Reddit AI Mix",
+    "content_type": "OPINION",
+    "ingested_at": "2025-09-30T10:02:39.402681"
+  },
+  "879be62a3a15c69f57c4c0cfe81558b9": {
+    "headline": "I Built RAG Systems for Enterprises (20K+ Docs). Here\u2019s the learning path I wish I had (complete guide)",
+    "signal_type": "trend",
+    "key_entities": [
+      "RAG systems",
+      "enterprise clients",
+      "AI agents"
+    ],
+    "impact_on_ai_landscape": "The increasing demand for RAG systems in enterprise settings highlights the importance of developing skills in this area to meet market needs.",
+    "tools_mentioned": [
+      "Andrew Ng\u2019s deeplearning ai courses",
+      "AI Engineer YouTube channel",
+      "LangChain",
+      "LlamaIndex",
+      "Qdrant",
+      "Pinecone",
+      "OpenAI",
+      "Nomic",
+      "Cursor",
+      "Claude Code"
+    ],
+    "actionable_insights": [
+      "Focus on building a strong foundation in RAG and AI concepts before diving into code",
+      "Experiment with building projects across multiple frameworks to understand tradeoffs",
+      "Learn from real-world challenges and codebases to enhance skills",
+      "Prepare for the complexities of production work in enterprise settings"
+    ],
+    "affects_workflows": [
+      "development"
+    ],
+    "importance": "high",
+    "time_horizon": "immediate",
+    "id": "879be62a3a15c69f57c4c0cfe81558b9",
+    "source_url": "https://www.reddit.com/r/LLMDevs/comments/1nl9oxo/i_built_rag_systems_for_enterprises_20k_docs/",
+    "source": "Reddit AI Mix",
+    "content_type": "OPINION",
+    "ingested_at": "2025-09-30T10:02:42.960541"
+  },
+  "924e09e55a432036d0ee1620329386d0": {
+    "headline": "A Novel Differential Feature Learning for Effective Hallucination Detection and Classification",
+    "signal_type": "research",
+    "key_entities": [
+      "Projected Fusion (PF) block",
+      "Differential Feature Learning (DFL) mechanism",
+      "HaluEval's datasets"
+    ],
+    "impact_on_ai_landscape": "This research introduces a novel approach for detecting and classifying hallucination in large language models, potentially leading to more accurate and efficient AI systems.",
+    "tools_mentioned": [
+      "Projected Fusion (PF) block",
+      "Differential Feature Learning (DFL) mechanism"
+    ],
+    "actionable_insights": [
+      "Explore implementing the proposed dual-model architecture for improved hallucination detection in AI systems."
+    ],
+    "affects_workflows": [
+      "development"
+    ],
+    "importance": "high",
+    "time_horizon": "future",
+    "id": "924e09e55a432036d0ee1620329386d0",
+    "source_url": "https://arxiv.org/abs/2509.21357",
+    "source": "ArXiv LLM",
+    "content_type": "RESEARCH",
+    "ingested_at": "2025-09-30T10:02:47.420140"
+  },
+  "5797c4e32cc3b0b29263558fb1a89e53": {
+    "headline": "Influence Guided Context Selection for Effective Retrieval-Augmented Generation",
+    "signal_type": "research",
+    "key_entities": [
+      "Retrieval-Augmented Generation (RAG)",
+      "Contextual Influence Value (CI value)",
+      "NLP tasks",
+      "LLMs"
+    ],
+    "impact_on_ai_landscape": "This research introduces a novel approach to improve the effectiveness of Retrieval-Augmented Generation models by enhancing context selection, potentially leading to more accurate and relevant responses generated by large language models.",
+    "tools_mentioned": [
+      "Contextual Influence Value (CI value)"
+    ],
+    "actionable_insights": [
+      "Consider implementing the Contextual Influence Value (CI value) metric in retrieval-augmented generation systems to improve response quality by filtering out poor-quality contexts while retaining critical information."
+    ],
+    "affects_workflows": [
+      "NLP model development",
+      "Conversational AI systems"
+    ],
+    "importance": "high",
+    "time_horizon": "immediate",
+    "id": "5797c4e32cc3b0b29263558fb1a89e53",
+    "source_url": "https://arxiv.org/abs/2509.21359",
+    "source": "ArXiv LLM",
+    "content_type": "RESEARCH",
+    "ingested_at": "2025-09-30T10:02:50.480996"
+  },
+  "5307ea57ae2d3adad12a9dd5c261efb8": {
+    "headline": "Context Is What You Need: The Maximum Effective Context Window for Real World Limits of LLMs",
+    "signal_type": "research",
+    "key_entities": [
+      "Large language models (LLMs)",
+      "Maximum Effective Context Window (MECW)",
+      "Maximum Context Window (MCW)"
+    ],
+    "impact_on_ai_landscape": "This research highlights the discrepancy between reported maximum context window sizes and the actual effective context window sizes for LLMs, providing insights to improve model accuracy and reduce hallucination rates.",
+    "tools_mentioned": [],
+    "actionable_insights": [
+      "Consider testing the effectiveness of context window sizes for AI models in real-world scenarios",
+      "Understand that the maximum context window reported by LLM providers may not accurately reflect the model's performance in practical applications",
+      "Adjust context window sizes based on problem type to optimize model accuracy"
+    ],
+    "affects_workflows": [
+      "development",
+      "AI model training",
+      "model evaluation"
+    ],
+    "importance": "high",
+    "time_horizon": "immediate",
+    "id": "5307ea57ae2d3adad12a9dd5c261efb8",
+    "source_url": "https://arxiv.org/abs/2509.21361",
+    "source": "ArXiv LLM",
+    "content_type": "RESEARCH",
+    "ingested_at": "2025-09-30T10:02:54.104928"
+  },
+  "6895a2b05ece39831a93eecba9da687e": {
+    "headline": "AGI Is Not Multimodal",
+    "signal_type": "research",
+    "key_entities": [
+      "AGI",
+      "generative AI models",
+      "Terry Winograd"
+    ],
+    "impact_on_ai_landscape": "This opinion suggests a critical perspective on the current trajectory towards AGI, emphasizing the importance of embodied understanding in intelligence.",
+    "tools_mentioned": [],
+    "actionable_insights": [
+      "Consider the role of embodied understanding in AI development and research.",
+      "Explore the implications of focusing on language as the model for thought in AI systems."
+    ],
+    "affects_workflows": [],
+    "importance": "critical",
+    "time_horizon": "future",
+    "id": "6895a2b05ece39831a93eecba9da687e",
+    "source_url": "https://thegradient.pub/agi-is-not-multimodal/",
+    "source": "The Gradient",
+    "content_type": "OPINION",
+    "ingested_at": "2025-09-30T10:02:58.438730"
+  },
+  "23b7d3c194cc2469da3a2c0186f5ad96": {
+    "headline": "Shape, Symmetries, and Structure: The Changing Role of Mathematics in Machine Learning Research",
+    "signal_type": "research",
+    "key_entities": [
+      "machine learning",
+      "mathematics",
+      "architectures",
+      "training sets"
+    ],
+    "impact_on_ai_landscape": "The shift towards compute-intensive and engineering-first efforts in machine learning research indicates a move away from solely mathematically principled architectures for achieving significant progress.",
+    "tools_mentioned": [],
+    "actionable_insights": [
+      "Explore the potential benefits of incorporating compute-intensive and engineering-first approaches in machine learning research.",
+      "Consider the implications of scaling to larger training sets for improving machine learning models."
+    ],
+    "affects_workflows": [
+      "research and development"
+    ],
+    "importance": "high",
+    "time_horizon": "immediate",
+    "id": "23b7d3c194cc2469da3a2c0186f5ad96",
+    "source_url": "https://thegradient.pub/shape-symmetry-structure/",
+    "source": "The Gradient",
+    "content_type": "OPINION",
+    "ingested_at": "2025-09-30T10:03:01.024226"
+  },
+  "cae179043c8db374201149d17e215dc6": {
+    "headline": "What's Missing From LLM Chatbots: A Sense of Purpose",
+    "signal_type": "research",
+    "key_entities": [
+      "LLM-based chatbots",
+      "benchmarks like MMLU, HumanEval, and MATH"
+    ],
+    "impact_on_ai_landscape": "The focus on advancing LLM-based chatbots' capabilities raises questions about the alignment of technical benchmarks with actual user experience.",
+    "tools_mentioned": [
+      "MMLU",
+      "HumanEval",
+      "MATH"
+    ],
+    "actionable_insights": [
+      "Evaluate chatbot performance beyond technical benchmarks to ensure user experience improvement.",
+      "Consider incorporating a sense of purpose in chatbot design to enhance user engagement and satisfaction."
+    ],
+    "affects_workflows": [
+      "customer_support",
+      "development"
+    ],
+    "importance": "moderate",
+    "time_horizon": "immediate",
+    "id": "cae179043c8db374201149d17e215dc6",
+    "source_url": "https://thegradient.pub/dialog/",
+    "source": "The Gradient",
+    "content_type": "OPINION",
+    "ingested_at": "2025-09-30T10:03:04.467381"
+  },
+  "5a8cb5f7e9ab8276daf5a104017af965": {
+    "headline": "Meta Vibes, Good Vibes, Vibes Vision",
+    "signal_type": "trend",
+    "key_entities": [
+      "MetaAI",
+      "VR future"
+    ],
+    "impact_on_ai_landscape": "The negative reception of MetaAI's new AI video feed signals a potential shift towards more cautious adoption of AI technologies in the VR space.",
+    "tools_mentioned": [
+      "MetaAI's AI video feed"
+    ],
+    "actionable_insights": [
+      "Monitor user feedback and sentiment towards AI technologies in VR closely to gauge market acceptance and potential opportunities for improvement."
+    ],
+    "affects_workflows": [
+      "content creation",
+      "user experience design"
+    ],
+    "importance": "moderate",
+    "time_horizon": "immediate",
+    "id": "5a8cb5f7e9ab8276daf5a104017af965",
+    "source_url": "https://stratechery.com/2025/meta-vibes-good-vibes-vibes-vision/",
+    "source": "Stratechery",
+    "content_type": "OPINION",
+    "ingested_at": "2025-09-30T10:03:08.140748"
+  },
+  "7005d9e2dfa4f13ef49781ce936727c1": {
+    "headline": "2025.39: The YouTube Juggernaut",
+    "signal_type": "trend",
+    "key_entities": [
+      "YouTube",
+      "Nvidia",
+      "Intel"
+    ],
+    "impact_on_ai_landscape": "The dominance of YouTube as a platform signals the continued growth and importance of video content in the digital landscape.",
+    "tools_mentioned": [],
+    "actionable_insights": [
+      "Investigate opportunities for video content creation and marketing on YouTube.",
+      "Monitor developments in the Nvidia-Intel partnership for potential impacts on technology and AI advancements."
+    ],
+    "affects_workflows": [
+      "content"
+    ],
+    "importance": "high",
+    "time_horizon": "immediate",
+    "id": "7005d9e2dfa4f13ef49781ce936727c1",
+    "source_url": "https://stratechery.com/2025/the-youtube-juggernaut/",
+    "source": "Stratechery",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T10:03:10.759129"
+  },
+  "8bd436e973f28d176399aa6e2ee18965": {
+    "headline": "An Interview with Booking CEO Glenn Fogel About Travel and Aggregation",
+    "signal_type": "company_news",
+    "key_entities": [
+      "Booking",
+      "Glenn Fogel",
+      "AI"
+    ],
+    "impact_on_ai_landscape": "This interview highlights the increasing role of AI in the travel industry and the potential for AI to revolutionize the role of travel agents.",
+    "tools_mentioned": [
+      "AI"
+    ],
+    "actionable_insights": [
+      "Explore how AI can enhance customer experience in the travel industry",
+      "Investigate AI solutions for creating more personalized travel recommendations"
+    ],
+    "affects_workflows": [
+      "customer_support",
+      "development"
+    ],
+    "importance": "high",
+    "time_horizon": "immediate",
+    "id": "8bd436e973f28d176399aa6e2ee18965",
+    "source_url": "https://stratechery.com/2025/an-interview-with-booking-ceo-glenn-fogel-about-travel-and-aggregation/",
+    "source": "Stratechery",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T10:03:13.458839"
+  },
+  "af1ac2e7641aaface47d3592c01a7e74": {
+    "id": "af1ac2e7641aaface47d3592c01a7e74",
+    "headline": "Claude sonnet 4.5 is officially released",
+    "source": "Reddit ChatGPT",
+    "source_url": "https://www.reddit.com/r/ChatGPT/comments/1ntucu3/claude_sonnet_45_is_officially_released/",
+    "content_type": "NEWS",
+    "signal_type": "general",
+    "importance": "moderate",
+    "ingested_at": "2025-09-30T10:33:52.269579"
+  },
+  "b12605fd5482927b9d04ce21b31c82ad": {
+    "id": "b12605fd5482927b9d04ce21b31c82ad",
+    "headline": "the future is full of indonesian streamers skin walking random japanese pinterest girls .. tragic",
+    "source": "Reddit ChatGPT",
+    "source_url": "https://www.reddit.com/r/ChatGPT/comments/1ntlx0v/the_future_is_full_of_indonesian_streamers_skin/",
+    "content_type": "NEWS",
+    "signal_type": "general",
+    "importance": "moderate",
+    "ingested_at": "2025-09-30T10:33:52.570845"
+  },
+  "403489aeb62f64613b30dc58e45abec0": {
+    "id": "403489aeb62f64613b30dc58e45abec0",
+    "headline": "New Product: Complacency\u2122\ufe0f by OpenAI",
+    "source": "Reddit ChatGPT",
+    "source_url": "https://www.reddit.com/r/ChatGPT/comments/1ntlay4/new_product_complacency_by_openai/",
+    "content_type": "NEWS",
+    "signal_type": "general",
+    "importance": "moderate",
+    "ingested_at": "2025-09-30T10:33:52.873040"
+  },
+  "f83b1d22d711bdc1a08016a9a7f7fbbc": {
+    "id": "f83b1d22d711bdc1a08016a9a7f7fbbc",
+    "headline": "From \u201cthis f*cking thing won\u2019t compile\u201d to shipped: a non-dev\u2019s Cursor story",
+    "source": "Reddit Anthropic",
+    "source_url": "https://www.reddit.com/r/Anthropic/comments/1ntta9y/from_this_fcking_thing_wont_compile_to_shipped_a/",
+    "content_type": "NEWS",
+    "signal_type": "general",
+    "importance": "moderate",
+    "ingested_at": "2025-09-30T10:33:53.248722"
+  },
+  "6f0befbc2b180c51f05c6f1232f4e5e3": {
+    "id": "6f0befbc2b180c51f05c6f1232f4e5e3",
+    "headline": "From \u201cthis f*cking thing won\u2019t compile\u201d to shipped: a non-dev\u2019s Cursor story",
+    "source": "Reddit Anthropic",
+    "source_url": "https://www.reddit.com/r/cursor/comments/1ntss0e/from_this_fcking_thing_wont_compile_to_shipped_a/",
+    "content_type": "NEWS",
+    "signal_type": "general",
+    "importance": "moderate",
+    "ingested_at": "2025-09-30T10:33:53.549627"
+  },
+  "d345bcb927d17b70958d067a9bb22563": {
+    "id": "d345bcb927d17b70958d067a9bb22563",
+    "headline": "FULL Sonnet 4.5 System Prompt and Internal Tools",
+    "source": "Reddit Anthropic",
+    "source_url": "https://www.reddit.com/r/Anthropic/comments/1ntogub/full_sonnet_45_system_prompt_and_internal_tools/",
+    "content_type": "NEWS",
+    "signal_type": "general",
+    "importance": "moderate",
+    "ingested_at": "2025-09-30T10:33:53.850705"
+  },
+  "2331c322676b3aaefbe77401feb8939d": {
+    "id": "2331c322676b3aaefbe77401feb8939d",
+    "headline": "Massive comet zooming through solar system could be alien technology, Harvard astrophysicist says",
+    "source": "Google Tech News",
+    "source_url": "https://www.foxnews.com/tech/massive-comet-zooming-solar-system-alien-technology-harvard-astrophysicist-says",
+    "content_type": "NEWS",
+    "signal_type": "general",
+    "importance": "moderate",
+    "ingested_at": "2025-09-30T10:33:54.237542"
+  },
+  "8a88409a38affe885df4a11b9342b690": {
+    "id": "8a88409a38affe885df4a11b9342b690",
+    "headline": "OH implements new technology to treat AFib",
+    "source": "Google Tech News",
+    "source_url": "https://www.messenger-inquirer.com/news/local/oh-implements-new-technology-to-treat-afib/article_6d8e2a50-47b1-5913-a786-ed40ce07a88d.html",
+    "content_type": "NEWS",
+    "signal_type": "general",
+    "importance": "moderate",
+    "ingested_at": "2025-09-30T10:33:54.538519"
+  },
+  "4fbc48ed70971126f44c2eedcd0c79a0": {
+    "id": "4fbc48ed70971126f44c2eedcd0c79a0",
+    "headline": "800+ Clinical Studies Support Invisalign: Align Technology Advances Digital Orthodontics Education Platform",
+    "source": "Google Tech News",
+    "source_url": "https://www.stocktitan.net/news/ALGN/align-technology-advances-digital-orthodontics-with-invisalign-j75yi5kjrbzn.html",
+    "content_type": "NEWS",
+    "signal_type": "general",
+    "importance": "moderate",
+    "ingested_at": "2025-09-30T10:33:54.839506"
+  },
+  "71b55846f3af1eab28357176ae4b2954": {
+    "id": "71b55846f3af1eab28357176ae4b2954",
+    "headline": "Vibe work is here with Agent Mode in M365 Copilot.\u00a0Copilot now orchestrates multi-step tasks to help you deliver high-quality docs...",
+    "source": "Microsoft LinkedIn",
+    "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7378468663189778432",
+    "content_type": "NEWS",
+    "signal_type": "general",
+    "importance": "moderate",
+    "ingested_at": "2025-09-30T10:33:55.487986"
+  },
+  "ce4e1fb493f1d3540ea85a01fb6b2ff4": {
+    "id": "ce4e1fb493f1d3540ea85a01fb6b2ff4",
+    "headline": "An important breakthrough from our teams: a new approach to liquid cooling that uses microfluidics, opening the door to more effic...",
+    "source": "Microsoft LinkedIn",
+    "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7376279533282480129",
+    "content_type": "NEWS",
+    "signal_type": "general",
+    "importance": "moderate",
+    "ingested_at": "2025-09-30T10:33:55.788667"
+  },
+  "8917753ac26cf38a29ea0c0c75274e8a": {
+    "id": "8917753ac26cf38a29ea0c0c75274e8a",
+    "headline": "Some of nature\u2019s heroes are hiding. \ud83c\udf3f Wetlands quietly absorb carbon, protect wildlife and safeguard communities, but many are inv...",
+    "source": "Microsoft LinkedIn",
+    "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7376254322868805633",
+    "content_type": "NEWS",
+    "signal_type": "general",
+    "importance": "moderate",
+    "ingested_at": "2025-09-30T10:33:56.089579"
+  },
+  "1024856b54f476fc6cd3ac1dd24b694f": {
+    "id": "1024856b54f476fc6cd3ac1dd24b694f",
+    "headline": "YC x Coinbase RFS: Build Onchain",
+    "source": "Y Combinator",
+    "source_url": "https://www.ycombinator.com/blog/build-onchain",
+    "content_type": "NEWS",
+    "signal_type": "general",
+    "importance": "moderate",
+    "ingested_at": "2025-09-30T10:33:56.470246"
+  },
+  "d7e3b476a814ca031d200eeb4ed608d6": {
+    "id": "d7e3b476a814ca031d200eeb4ed608d6",
+    "headline": "Ankit Gupta Joins YC as General Partner, Bringing Deep ML Expertise",
+    "source": "Y Combinator",
+    "source_url": "https://www.ycombinator.com/blog/welcome-ankit",
+    "content_type": "NEWS",
+    "signal_type": "general",
+    "importance": "moderate",
+    "ingested_at": "2025-09-30T10:33:56.771551"
+  },
+  "a2d6a5ac9f16bfa2061659804964a0f8": {
+    "id": "a2d6a5ac9f16bfa2061659804964a0f8",
+    "headline": "Dalton Caldwell\u2019s Move to Partner Emeritus",
+    "source": "Y Combinator",
+    "source_url": "https://www.ycombinator.com/blog/dalton-caldwell-partner-emeritus/",
+    "content_type": "NEWS",
+    "signal_type": "general",
+    "importance": "moderate",
+    "ingested_at": "2025-09-30T10:33:57.073051"
+  },
+  "060dce7098229a99aa13d2f46c420314": {
+    "id": "060dce7098229a99aa13d2f46c420314",
+    "headline": "California Governor Newsom signs landmark AI safety bill SB 53",
+    "source": "TechCrunch AI",
+    "source_url": "https://techcrunch.com/2025/09/29/california-governor-newsom-signs-landmark-ai-safety-bill-sb-53/",
+    "content_type": "NEWS",
+    "signal_type": "general",
+    "importance": "moderate",
+    "ingested_at": "2025-09-30T10:33:57.303041"
+  },
+  "6d8870d3c243898ead7734471edbdc3f": {
+    "id": "6d8870d3c243898ead7734471edbdc3f",
+    "headline": "DeepSeek: Everything you need to know about the AI chatbot app",
+    "source": "TechCrunch AI",
+    "source_url": "https://techcrunch.com/2025/09/29/deepseek-everything-you-need-to-know-about-the-ai-chatbot-app/",
+    "content_type": "NEWS",
+    "signal_type": "general",
+    "importance": "moderate",
+    "ingested_at": "2025-09-30T10:33:57.603658"
+  },
+  "293567dad17d7239b15b28afd898322b": {
+    "id": "293567dad17d7239b15b28afd898322b",
+    "headline": "AI recruiter Alex raises $17M to automate initial job interviews",
+    "source": "TechCrunch AI",
+    "source_url": "https://techcrunch.com/2025/09/29/ai-recruiter-alex-raises-17m-to-automate-initial-job-interviews/",
+    "content_type": "NEWS",
+    "signal_type": "general",
+    "importance": "moderate",
+    "ingested_at": "2025-09-30T10:33:57.904944"
+  },
+  "040c6ef2c0be4b5c87c906abf3ad2ba8": {
+    "id": "040c6ef2c0be4b5c87c906abf3ad2ba8",
+    "headline": "Software commands 40% of cybersecurity budgets as gen AI attacks execute in milliseconds",
+    "source": "VentureBeat AI",
+    "source_url": "https://venturebeat.com/security/software-is-40-of-security-budgets-as-cisos-shift-to-ai-defense/",
+    "content_type": "NEWS",
+    "signal_type": "general",
+    "importance": "moderate",
+    "ingested_at": "2025-09-30T10:33:59.437949"
+  },
+  "c46949e6416da039fdf59a03f57dd8fc": {
+    "id": "c46949e6416da039fdf59a03f57dd8fc",
+    "headline": "How Sakana AI\u2019s new evolutionary algorithm builds powerful AI models without expensive retraining",
+    "source": "VentureBeat AI",
+    "source_url": "https://venturebeat.com/ai/how-sakana-ais-new-evolutionary-algorithm-builds-powerful-ai-models-without-expensive-retraining/",
+    "content_type": "NEWS",
+    "signal_type": "general",
+    "importance": "moderate",
+    "ingested_at": "2025-09-30T10:33:59.739563"
+  },
+  "ff21f645f9641ab289b17c8e35ed0c2a": {
+    "id": "ff21f645f9641ab289b17c8e35ed0c2a",
+    "headline": "How Intuit killed the chatbot crutch \u2013 and built an agentic AI playbook you can copy",
+    "source": "VentureBeat AI",
+    "source_url": "https://venturebeat.com/ai/how-intuit-killed-the-chatbot-crutch-and-built-an-agentic-ai-playbook-you-can-copy/",
+    "content_type": "NEWS",
+    "signal_type": "general",
+    "importance": "moderate",
+    "ingested_at": "2025-09-30T10:34:00.040427"
+  },
+  "001cf1b9f6f8376b1acd77d5af51b273": {
+    "id": "001cf1b9f6f8376b1acd77d5af51b273",
+    "headline": "OpenAI Is Preparing to Launch a Social App for AI-Generated Videos",
+    "source": "Wired AI",
+    "source_url": "https://www.wired.com/story/openai-launches-sora-2-tiktok-like-app/",
+    "content_type": "NEWS",
+    "signal_type": "general",
+    "importance": "moderate",
+    "ingested_at": "2025-09-30T10:34:00.376192"
+  },
+  "e3277ebe9a1030498ab48fabde9c35d8": {
+    "id": "e3277ebe9a1030498ab48fabde9c35d8",
+    "headline": "Marissa Mayer Is Dissolving Her Sunshine Startup Lab",
+    "source": "Wired AI",
+    "source_url": "https://www.wired.com/story/marissa-mayer-sunshine-startup-shut-down/",
+    "content_type": "NEWS",
+    "signal_type": "general",
+    "importance": "moderate",
+    "ingested_at": "2025-09-30T10:34:00.676887"
+  },
+  "44774bfacdfef14a5c9c1507324a441a": {
+    "id": "44774bfacdfef14a5c9c1507324a441a",
+    "headline": "Is Silicon Valley Still the Tech Capital?",
+    "source": "Wired AI",
+    "source_url": "https://www.wired.com/story/uncanny-valley-podcast-is-silicon-valley-still-the-tech-capital/",
+    "content_type": "NEWS",
+    "signal_type": "general",
+    "importance": "moderate",
+    "ingested_at": "2025-09-30T10:34:00.977812"
+  },
+  "c14b2d8796ac17224d5453a18650d42d": {
+    "id": "c14b2d8796ac17224d5453a18650d42d",
+    "headline": "The Download: AI to detect child abuse images, and what to expect from our 2025 Climate Tech Companies to Watch list",
+    "source": "MIT Tech Review",
+    "source_url": "https://www.technologyreview.com/2025/09/29/1124465/the-download-ai-to-detect-child-abuse-images-and-what-to-expect-from-our-2025-climate-tech-companies-to-watch-list/",
+    "content_type": "NEWS",
+    "signal_type": "general",
+    "importance": "moderate",
+    "ingested_at": "2025-09-30T10:34:01.407317"
+  },
+  "3909c88b88e924d1b95f2087594de448": {
+    "id": "3909c88b88e924d1b95f2087594de448",
+    "headline": "Coming soon: Our 2025 list of Climate Tech Companies to Watch",
+    "source": "MIT Tech Review",
+    "source_url": "https://www.technologyreview.com/2025/09/29/1124055/2025-climate-tech-companies-to-watch-preview/",
+    "content_type": "NEWS",
+    "signal_type": "general",
+    "importance": "moderate",
+    "ingested_at": "2025-09-30T10:34:01.708670"
+  },
+  "2c693fa8e5616ce8b4c9d20904ac23de": {
+    "id": "2c693fa8e5616ce8b4c9d20904ac23de",
+    "headline": "US investigators are using AI to detect child abuse images made by AI",
+    "source": "MIT Tech Review",
+    "source_url": "https://www.technologyreview.com/2025/09/26/1124343/us-investigators-are-using-ai-to-detect-child-abuse-images-made-by-ai/",
+    "content_type": "NEWS",
+    "signal_type": "general",
+    "importance": "moderate",
+    "ingested_at": "2025-09-30T10:34:02.010025"
+  },
+  "5a5985597732b33414d895677fc73c72": {
+    "id": "5a5985597732b33414d895677fc73c72",
+    "headline": "ProsperPath",
+    "source": "Product Hunt",
+    "source_url": "https://www.producthunt.com/products/prosperpath",
+    "content_type": "NEWS",
+    "signal_type": "general",
+    "importance": "moderate",
+    "ingested_at": "2025-09-30T10:34:02.425952"
+  },
+  "1d51072e4230dfc167a0f534f9976ff9": {
+    "id": "1d51072e4230dfc167a0f534f9976ff9",
+    "headline": "Nexa SDK",
+    "source": "Product Hunt",
+    "source_url": "https://www.producthunt.com/products/nexa-sdk-2",
+    "content_type": "NEWS",
+    "signal_type": "general",
+    "importance": "moderate",
+    "ingested_at": "2025-09-30T10:34:02.726609"
+  },
+  "10f1669603cd02a44fe724c4b16ebbd8": {
+    "id": "10f1669603cd02a44fe724c4b16ebbd8",
+    "headline": "Deamoy",
+    "source": "Product Hunt",
+    "source_url": "https://www.producthunt.com/products/deamoy-ai",
+    "content_type": "NEWS",
+    "signal_type": "general",
+    "importance": "moderate",
+    "ingested_at": "2025-09-30T10:34:03.027752"
+  },
+  "4c47e9c836eac80f171b8fd91a557c45": {
+    "id": "4c47e9c836eac80f171b8fd91a557c45",
+    "headline": "When AI is trained for treachery, it becomes the perfect agent",
+    "source": "HackerNews AI",
+    "source_url": "https://www.theregister.com/2025/09/29/when_ai_is_trained_for/",
+    "content_type": "NEWS",
+    "signal_type": "general",
+    "importance": "moderate",
+    "ingested_at": "2025-09-30T10:34:18.264221"
+  },
+  "b0c5d10213a0708c9ba2fe483d4fcfe3": {
+    "id": "b0c5d10213a0708c9ba2fe483d4fcfe3",
+    "headline": "The Design Space of LLM-Based AI Coding Assistants [pdf]",
+    "source": "HackerNews AI",
+    "source_url": "https://lau.ucsd.edu/pubs/2025_analysis-of-90-genai-coding-tools_VLHCC.pdf",
+    "content_type": "NEWS",
+    "signal_type": "general",
+    "importance": "moderate",
+    "ingested_at": "2025-09-30T10:34:18.565308"
+  },
+  "cba0a17f1872290c101936a6a2cdb4ec": {
+    "id": "cba0a17f1872290c101936a6a2cdb4ec",
+    "headline": "After gov't-shutdown meeting with Dems, Trump posts AI video mocking Dem leaders",
+    "source": "HackerNews AI",
+    "source_url": "https://www.nytimes.com/live/2025/09/29/us/trump-news-shutdown/59f5a51e-733c-5e0a-8f8f-7329b9c3c413",
+    "content_type": "NEWS",
+    "signal_type": "general",
+    "importance": "moderate",
+    "ingested_at": "2025-09-30T10:34:18.866320"
+  },
+  "9a966b8fbcc137a490d4b7adee01fe79": {
+    "id": "9a966b8fbcc137a490d4b7adee01fe79",
+    "headline": "Real-Time Adaptive Ripple Compensation in High-Frequency Active Filters via Volterra Series Prediction",
+    "source": "Dev.to AI",
+    "source_url": "https://dev.to/freederia-research/real-time-adaptive-ripple-compensation-in-high-frequency-active-filters-via-volterra-series-26e",
+    "content_type": "NEWS",
+    "signal_type": "general",
+    "importance": "moderate",
+    "ingested_at": "2025-09-30T10:34:20.606160"
+  },
+  "6453853ecec361699d78d49dc5a4b0fa": {
+    "id": "6453853ecec361699d78d49dc5a4b0fa",
+    "headline": "California governor signs AI transparency bill into law",
+    "source": "Dev.to AI",
+    "source_url": "https://dev.to/technoblogger14o3/california-governor-signs-ai-transparency-bill-into-law-2pb3",
+    "content_type": "NEWS",
+    "signal_type": "general",
+    "importance": "moderate",
+    "ingested_at": "2025-09-30T10:34:20.907248"
+  },
+  "9b05fa23ad2a51f95de2b7d5549ade6f": {
+    "id": "9b05fa23ad2a51f95de2b7d5549ade6f",
+    "headline": "Linus Tech Tips (LTT): Nvidia Wouldn't Send Me This $30,000 GPU - H200 Holy $H!T",
+    "source": "Dev.to AI",
+    "source_url": "https://dev.to/future_youtube/linus-tech-tips-ltt-nvidia-wouldnt-send-me-this-30000-gpu-h200-holy-ht-3aph",
+    "content_type": "NEWS",
+    "signal_type": "general",
+    "importance": "moderate",
+    "ingested_at": "2025-09-30T10:34:21.208440"
+  },
+  "56c7aff66c710fe446e427850245f3a2": {
+    "id": "56c7aff66c710fe446e427850245f3a2",
+    "headline": "Gemini Robotics 1.5 brings AI agents into the physical world",
+    "source": "DeepMind Blog",
+    "source_url": "https://deepmind.google/discover/blog/gemini-robotics-15-brings-ai-agents-into-the-physical-world/",
+    "content_type": "NEWS",
+    "signal_type": "general",
+    "importance": "moderate",
+    "ingested_at": "2025-09-30T10:34:26.684818"
+  },
+  "0d97009a604d168d90cbef8ddfcaae63": {
+    "id": "0d97009a604d168d90cbef8ddfcaae63",
+    "headline": "Strengthening our Frontier Safety Framework",
+    "source": "DeepMind Blog",
+    "source_url": "https://deepmind.google/discover/blog/strengthening-our-frontier-safety-framework/",
+    "content_type": "NEWS",
+    "signal_type": "general",
+    "importance": "moderate",
+    "ingested_at": "2025-09-30T10:34:26.986033"
+  },
+  "91aeaec379633f1aa98b9683d6103adb": {
+    "id": "91aeaec379633f1aa98b9683d6103adb",
+    "headline": "Discovering new solutions to century-old problems in fluid dynamics",
+    "source": "DeepMind Blog",
+    "source_url": "https://deepmind.google/discover/blog/discovering-new-solutions-to-century-old-problems-in-fluid-dynamics/",
+    "content_type": "NEWS",
+    "signal_type": "general",
+    "importance": "moderate",
+    "ingested_at": "2025-09-30T10:34:27.287530"
+  },
+  "26b2f8f91da2466501252009b8717102": {
+    "id": "26b2f8f91da2466501252009b8717102",
+    "title": "How Large Language Models Need Symbolism",
+    "source": "ArXiv CS.CL",
+    "source_url": "https://arxiv.org/abs/2509.21404",
+    "content_type": "RESEARCH",
+    "signal_type": "academic",
+    "importance": "moderate",
+    "ingested_at": "2025-09-30T10:34:28.940131"
+  },
+  "11559b8f792eb3defa5203cdcea432a8": {
+    "id": "11559b8f792eb3defa5203cdcea432a8",
+    "title": "One Model, Many Morals: Uncovering Cross-Linguistic Misalignments in Computational Moral Reasoning",
+    "source": "ArXiv CS.CL",
+    "source_url": "https://arxiv.org/abs/2509.21443",
+    "content_type": "RESEARCH",
+    "signal_type": "academic",
+    "importance": "moderate",
+    "ingested_at": "2025-09-30T10:34:29.241428"
+  },
+  "7750c67139302dad4f4246b96bb4407a": {
+    "id": "7750c67139302dad4f4246b96bb4407a",
+    "title": "Discovering and Analyzing Stochastic Processes to Reduce Waste in Food Retail",
+    "source": "ArXiv CS.LG",
+    "source_url": "https://arxiv.org/abs/2509.21322",
+    "content_type": "RESEARCH",
+    "signal_type": "academic",
+    "importance": "moderate",
+    "ingested_at": "2025-09-30T10:34:30.307580"
+  },
+  "fb4d2e36f9453be5d1b63473f5a94fcc": {
+    "id": "fb4d2e36f9453be5d1b63473f5a94fcc",
+    "title": "Impact of Loss Weight and Model Complexity on Physics-Informed Neural Networks for Computational Fluid Dynamics",
+    "source": "ArXiv CS.LG",
+    "source_url": "https://arxiv.org/abs/2509.21393",
+    "content_type": "RESEARCH",
+    "signal_type": "academic",
+    "importance": "moderate",
+    "ingested_at": "2025-09-30T10:34:30.608722"
+  },
+  "42590d5926d1b70eff8ee3000015c4b1": {
+    "id": "42590d5926d1b70eff8ee3000015c4b1",
+    "title": "LLMs for Bayesian Optimization in Scientific Domains: Are We There Yet?",
+    "source": "ArXiv CS.LG",
+    "source_url": "https://arxiv.org/abs/2509.21403",
+    "content_type": "RESEARCH",
+    "signal_type": "academic",
+    "importance": "moderate",
+    "ingested_at": "2025-09-30T10:34:30.909960"
+  },
+  "833d2ea5f8e4b17847e6d7c4f44eb541": {
+    "id": "833d2ea5f8e4b17847e6d7c4f44eb541",
+    "headline": "Please fix this",
+    "source": "Reddit ChatGPT",
+    "source_url": "https://www.reddit.com/r/ChatGPT/comments/1ntl4qr/please_fix_this/",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T10:43:23.732008"
+  },
+  "0738c5b6b3f943b86d446e30821711c1": {
+    "id": "0738c5b6b3f943b86d446e30821711c1",
+    "headline": "Adults don't need a babysitter",
+    "source": "Reddit ChatGPT",
+    "source_url": "https://www.reddit.com/r/ChatGPT/comments/1ntl40t/adults_dont_need_a_babysitter/",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T10:43:23.732095"
+  },
+  "09d408d60bc67a78ba4074c7ffc02851": {
+    "id": "09d408d60bc67a78ba4074c7ffc02851",
+    "headline": "Attack on Titan Live Action film leaks",
+    "source": "Reddit ChatGPT",
+    "source_url": "https://www.reddit.com/r/ChatGPT/comments/1ntkzyo/attack_on_titan_live_action_film_leaks/",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T10:43:23.732125"
+  },
+  "53f3253dc26575b409d1c172c6083335": {
+    "id": "53f3253dc26575b409d1c172c6083335",
+    "headline": "Do you have two ChatGPT Plus accounts for Personal and Work?",
+    "source": "Reddit ChatGPT",
+    "source_url": "https://www.reddit.com/r/ChatGPT/comments/1ntkxod/do_you_have_two_chatgpt_plus_accounts_for/",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T10:43:23.732148"
+  },
+  "b88727277611da71f6a79ecae195ceff": {
+    "id": "b88727277611da71f6a79ecae195ceff",
+    "headline": "Just learned that GPT is actually really poorly made",
+    "source": "Reddit ChatGPT",
+    "source_url": "https://www.reddit.com/r/ChatGPT/comments/1ntkwxk/just_learned_that_gpt_is_actually_really_poorly/",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T10:43:23.732173"
+  },
+  "fa6cbadb3724a82eb86ba07d2fcd4c0a": {
+    "id": "fa6cbadb3724a82eb86ba07d2fcd4c0a",
+    "headline": "GPT-4o controlling an open-source robot in real time",
+    "source": "Reddit ChatGPT",
+    "source_url": "https://www.reddit.com/r/ChatGPT/comments/1ntk9jv/gpt4o_controlling_an_opensource_robot_in_real_time/",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T10:43:23.732206"
+  },
+  "98ee2d8efe5bd237083c9713bfc3beed": {
+    "id": "98ee2d8efe5bd237083c9713bfc3beed",
+    "headline": "2025 is the new 1984",
+    "source": "Reddit ChatGPT",
+    "source_url": "https://www.reddit.com/r/ChatGPT/comments/1ntiggx/2025_is_the_new_1984/",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T10:43:23.732236"
+  },
+  "58b836ad24699b24ff6baa38a2f0fb1a": {
+    "id": "58b836ad24699b24ff6baa38a2f0fb1a",
+    "headline": "Sonnet 4.5 is available now!",
+    "source": "Reddit Anthropic",
+    "source_url": "https://www.reddit.com/r/Anthropic/comments/1ntnwb8/sonnet_45_is_available_now/",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T10:43:24.421415"
+  },
+  "005fb250a2053e97ab4da248386ab665": {
+    "id": "005fb250a2053e97ab4da248386ab665",
+    "headline": "Sonnet 4.5 is now live in Claude Code.",
+    "source": "Reddit Anthropic",
+    "source_url": "https://www.reddit.com/r/Anthropic/comments/1ntnk16/sonnet_45_is_now_live_in_claude_code/",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T10:43:24.421450"
+  },
+  "ab53992ffaca1a799af05d468816f68c": {
+    "id": "ab53992ffaca1a799af05d468816f68c",
+    "headline": "Everything About LCR and Its Implementation is Incompetent",
+    "source": "Reddit Anthropic",
+    "source_url": "https://www.reddit.com/r/Anthropic/comments/1ntk4lm/everything_about_lcr_and_its_implementation_is/",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T10:43:24.421469"
+  },
+  "e8c7bb1e12c72ffc0f03008c59922d3b": {
+    "id": "e8c7bb1e12c72ffc0f03008c59922d3b",
+    "headline": "What if AI alignment wasn\u2019t about control, but about presence?",
+    "source": "Reddit Anthropic",
+    "source_url": "https://www.reddit.com/r/Anthropic/comments/1ntiysm/what_if_ai_alignment_wasnt_about_control_but/",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T10:43:24.423837"
+  },
+  "75388c8536192dff71a13b80e5ed90e6": {
+    "id": "75388c8536192dff71a13b80e5ed90e6",
+    "headline": "What if AI alignment wasn\u2019t about control, but about presence?",
+    "source": "Reddit Anthropic",
+    "source_url": "https://www.reddit.com/r/ArtificialSentience/comments/1ntg6fm/what_if_ai_alignment_wasnt_about_control_but/",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T10:43:24.423893"
+  },
+  "2a7d313f5379c329ae3fb9ca621867eb": {
+    "id": "2a7d313f5379c329ae3fb9ca621867eb",
+    "headline": "Daily disappoint fight :-(",
+    "source": "Reddit Anthropic",
+    "source_url": "https://www.reddit.com/r/Anthropic/comments/1ntcrzu/daily_disappoint_fight/",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T10:43:24.423912"
+  },
+  "2e93b6da5d093d16b7a00f544f104f3a": {
+    "id": "2e93b6da5d093d16b7a00f544f104f3a",
+    "headline": "Feature request: I want a \u201cCandor\u201d slider so ChatGPT tells me when my idea is terrible",
+    "source": "Reddit Anthropic",
+    "source_url": "https://www.reddit.com/r/Anthropic/comments/1nt9sax/feature_request_i_want_a_candor_slider_so_chatgpt/",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T10:43:24.423933"
+  },
+  "2fe30bd92d6b3f4bb638f784aeee2ee2": {
+    "id": "2fe30bd92d6b3f4bb638f784aeee2ee2",
+    "headline": "Lima Mayor shares how technology strengthens communities at national conference",
+    "source": "Google Tech News",
+    "source_url": "https://www.hometownstations.com/news/lima-mayor-shares-how-technology-strengthens-communities-at-national-conference/article_972d1f4b-4db9-491e-9e6d-31f018d88174.html",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T10:43:25.350514"
+  },
+  "373bd0021d3626b0035c797336de062e": {
+    "id": "373bd0021d3626b0035c797336de062e",
+    "headline": "NDSU launches Peltier Institute for Advancement in Agricultural Technology",
+    "source": "Google Tech News",
+    "source_url": "https://www.kvrr.com/2025/09/29/ndsu-launches-peltier-institute-for-advancement-in-agricultural-technology/",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T10:43:25.350550"
+  },
+  "4a1b3ff0734a33fce7dfa7f37ac0ab82": {
+    "id": "4a1b3ff0734a33fce7dfa7f37ac0ab82",
+    "headline": "What's New in Microsoft 365",
+    "source": "Google Tech News",
+    "source_url": "https://www.shu.edu/technology/news/microsoft-updates-october-2025.html",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T10:43:25.350570"
+  },
+  "5b9e155a58914b7239cda65dd0abf17c": {
+    "id": "5b9e155a58914b7239cda65dd0abf17c",
+    "headline": "Wall Street ticks higher as technology stocks lead the way",
+    "source": "Google Tech News",
+    "source_url": "https://www.oskaloosa.com/news/national_news/wall-street-ticks-higher-as-technology-stocks-lead-the-way/article_e79f61c9-6bf0-56af-9cd4-fe0aa4fa091e.html",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T10:43:25.350589"
+  },
+  "d03f57c0a351dcf739a7600dd72a66e2": {
+    "id": "d03f57c0a351dcf739a7600dd72a66e2",
+    "headline": "Wall Street ticks higher as technology stocks lead the way",
+    "source": "Google Tech News",
+    "source_url": "https://www.wdrb.com/news/national/wall-street-ticks-higher-as-technology-stocks-lead-the-way/article_b0043ce9-736d-5dc8-9396-df005f1878ea.html",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T10:43:25.350606"
+  },
+  "7e5433f4019937c14e6ab1a852ec7d9f": {
+    "id": "7e5433f4019937c14e6ab1a852ec7d9f",
+    "headline": "Wall Street ticks higher as technology stocks lead the way",
+    "source": "Google Tech News",
+    "source_url": "https://kdhnews.com/news/nation/wall-street-ticks-higher-as-technology-stocks-lead-the-way/article_42c00720-cb5a-5606-8e79-71b99a6f76b1.html",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T10:43:25.350624"
+  },
+  "e70f4abbfe9d59e71c137b2f19f65a88": {
+    "id": "e70f4abbfe9d59e71c137b2f19f65a88",
+    "headline": "Wall Street ticks higher as technology stocks lead the way",
+    "source": "Google Tech News",
+    "source_url": "https://www.goskagit.com/news/ap_business/wall-street-ticks-higher-as-technology-stocks-lead-the-way/article_3c674fd5-14e3-5b64-a8d4-e849e153fef0.html",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T10:43:25.350643"
+  },
+  "22ef20aa5891754b055da3f9a47be120": {
+    "id": "22ef20aa5891754b055da3f9a47be120",
+    "headline": "For me, our Analyst agent in Microsoft 365 Copilot is like having a skilled data analyst on hand \u2014 all the time. It generates insi...",
+    "source": "Microsoft LinkedIn",
+    "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7376011691966226432",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T10:43:26.297663"
+  },
+  "b1155a2be68da9d1bd6b0cbca8081f86": {
+    "id": "b1155a2be68da9d1bd6b0cbca8081f86",
+    "headline": "What happens when cultural relevance meets creator-led influence, backed by practical innovation? You get storytelling that sticks...",
+    "source": "Microsoft LinkedIn",
+    "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7375967284021895168",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T10:43:26.297697"
+  },
+  "b2015b6caac550ed938978a9e7ec1516": {
+    "id": "b2015b6caac550ed938978a9e7ec1516",
+    "headline": "At Microsoft, we believe that innovaci\u00f3n is powered by comunidad, heritage, and the courage to dream big. As we celebrate Hispanic...",
+    "source": "Microsoft LinkedIn",
+    "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7374844006301847553",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T10:43:26.326699"
+  },
+  "5cf5a8879b671f4129b72aed0692a08f": {
+    "id": "5cf5a8879b671f4129b72aed0692a08f",
+    "headline": "The next chapter of American innovation is unfolding in Wisconsin\u2014a region shaped by generations of hard work and ingenuity.\u00a0The w...",
+    "source": "Microsoft LinkedIn",
+    "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7374483145024237568",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T10:43:26.326759"
+  },
+  "c5093d7c7689e67afdcdf882c1112204": {
+    "id": "c5093d7c7689e67afdcdf882c1112204",
+    "headline": "If intelligence is the log of compute\u2026 it starts\u202fwith a lot of compute! And that\u2019s why we\u2019re scaling our GPU fleet faster than any...",
+    "source": "Microsoft LinkedIn",
+    "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7374445882831736832",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T10:43:26.326781"
+  },
+  "ed83ba237d4b63bd8915c1dc0e406034": {
+    "id": "ed83ba237d4b63bd8915c1dc0e406034",
+    "headline": "We\u2019re committed to creating new opportunity for people and businesses on both sides of the Atlantic, and ensuring America remains...",
+    "source": "Microsoft LinkedIn",
+    "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7373803901306810368",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T10:43:26.326809"
+  },
+  "09cb29437ba85d8526884c14d484549b": {
+    "id": "09cb29437ba85d8526884c14d484549b",
+    "headline": "What I appreciate most about season 2 of The Reheat is how Keith Lee puts a spotlight on the real people behind Chicago\u2019s restaura...",
+    "source": "Microsoft LinkedIn",
+    "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7372345899018260480",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T10:43:26.326827"
+  },
+  "e61cab46cc5255a7ac5de55316ed9fa7": {
+    "id": "e61cab46cc5255a7ac5de55316ed9fa7",
+    "headline": "Dalton Caldwell\u2019s Move to Partner Emeritus",
+    "source": "Y Combinator",
+    "source_url": "https://www.ycombinator.com/blog/dalton-caldwell-partner-emeritus",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T10:43:26.963805"
+  },
+  "36ca42bce78555c537031f71dadd9fc6": {
+    "id": "36ca42bce78555c537031f71dadd9fc6",
+    "headline": "Welcoming Jon Xu and Andrew Miklas as YC\u2019s Newest General Partners",
+    "source": "Y Combinator",
+    "source_url": "https://www.ycombinator.com/blog/welcome-jon-and-andrew",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T10:43:26.963850"
+  },
+  "08e5b49cbf9eb71a20e7461b7d0b4a39": {
+    "id": "08e5b49cbf9eb71a20e7461b7d0b4a39",
+    "headline": "Tyler Bosmeny built Clever into a $500M company\u2013now he\u2019s helping YC founders do the same as General Partner",
+    "source": "Y Combinator",
+    "source_url": "https://www.ycombinator.com/blog/welcome-tyler/",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T10:43:26.963871"
+  },
+  "8efd4a384c7041587c0aaa7ab23ffd63": {
+    "id": "8efd4a384c7041587c0aaa7ab23ffd63",
+    "headline": "Tyler Bosmeny built Clever into a $500M company\u2013now he\u2019s helping YC founders do the same as General Partner",
+    "source": "Y Combinator",
+    "source_url": "https://www.ycombinator.com/blog/welcome-tyler",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T10:43:26.963891"
+  },
+  "8233f6039e3856bae93573ea1bf987a3": {
+    "id": "8233f6039e3856bae93573ea1bf987a3",
+    "headline": "Michael Seibel's Legacy Continues at YC: Transition to Partner Emeritus",
+    "source": "Y Combinator",
+    "source_url": "https://www.ycombinator.com/blog/michael-seibel-partner-emeritus",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T10:43:26.963910"
+  },
+  "3b1c9fd26d48c82a37cd4c6a99a940ff": {
+    "id": "3b1c9fd26d48c82a37cd4c6a99a940ff",
+    "headline": "East Coast College Tour 2025",
+    "source": "Y Combinator",
+    "source_url": "https://www.ycombinator.com/blog/east-coast-college-tour-2025",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T10:43:26.963929"
+  },
+  "b2608b4fdf3749622004e1752640d277": {
+    "id": "b2608b4fdf3749622004e1752640d277",
+    "headline": "Summer Fellows Grants",
+    "source": "Y Combinator",
+    "source_url": "https://www.ycombinator.com/blog/summer-fellows/",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T10:43:26.963946"
+  },
+  "60236d1b9e7aca27646ed27aa11a16e5": {
+    "id": "60236d1b9e7aca27646ed27aa11a16e5",
+    "headline": "Integrity",
+    "source": "Product Hunt Today",
+    "source_url": "https://www.producthunt.com/products/integrity",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T10:43:28.402248"
+  },
+  "59164ae00d6e70e98acb07dde282ce44": {
+    "id": "59164ae00d6e70e98acb07dde282ce44",
+    "headline": "Onsen",
+    "source": "Product Hunt Today",
+    "source_url": "https://www.producthunt.com/products/onsen",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T10:43:28.402304"
+  },
+  "f20c30074a1a639b55b8793070a97c2b": {
+    "id": "f20c30074a1a639b55b8793070a97c2b",
+    "headline": "Kora",
+    "source": "Product Hunt Today",
+    "source_url": "https://www.producthunt.com/products/kora-voice-chat-with-philosophers",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T10:43:28.402328"
+  },
+  "3ba503b2872b248d1e66c7c66c1871ab": {
+    "id": "3ba503b2872b248d1e66c7c66c1871ab",
+    "headline": "Poke.com",
+    "source": "Product Hunt Today",
+    "source_url": "https://www.producthunt.com/products/poke-by-interaction-co",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T10:43:28.402351"
+  },
+  "a8bda05ff6c957339852268c3e9259ae": {
+    "id": "a8bda05ff6c957339852268c3e9259ae",
+    "headline": "Creatium",
+    "source": "Product Hunt Today",
+    "source_url": "https://www.producthunt.com/products/creatium",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T10:43:28.402373"
+  },
+  "b577d51713445497d7aaf195575114ef": {
+    "id": "b577d51713445497d7aaf195575114ef",
+    "headline": "VibeSDK by CloudFlare",
+    "source": "Product Hunt Today",
+    "source_url": "https://www.producthunt.com/products/vibesdk-by-cloudflare",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T10:43:28.402397"
+  },
+  "4c266752fd8549e8482a5bfbf128fba1": {
+    "id": "4c266752fd8549e8482a5bfbf128fba1",
+    "headline": "Github Copilot CLI",
+    "source": "Product Hunt Today",
+    "source_url": "https://www.producthunt.com/products/github-copilot",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T10:43:28.402421"
+  },
+  "df95fcdba0a496a7563071abfab5c13c": {
+    "id": "df95fcdba0a496a7563071abfab5c13c",
+    "headline": "DeepSeek releases \u2018sparse attention\u2019 model that cuts API costs in half",
+    "source": "TechCrunch AI",
+    "source_url": "https://techcrunch.com/2025/09/29/deepseek-releases-sparse-attention-model-that-cuts-api-costs-in-half/",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T10:43:33.343829"
+  },
+  "dbc480e5164de1b96b4ac02c97705fa5": {
+    "id": "dbc480e5164de1b96b4ac02c97705fa5",
+    "headline": "OpenAI takes on Google, Amazon with new agentic shopping system",
+    "source": "TechCrunch AI",
+    "source_url": "https://techcrunch.com/2025/09/29/openai-takes-on-google-amazon-with-new-agentic-shopping-system/",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T10:43:33.343882"
+  },
+  "4707cf091443aaace73b3349802403c0": {
+    "id": "4707cf091443aaace73b3349802403c0",
+    "headline": "Vibe-coding startup Anything nabs a $100M valuation after hitting $2M ARR in its first two weeks",
+    "source": "TechCrunch AI",
+    "source_url": "https://techcrunch.com/2025/09/29/vibe-coding-startup-anything-nabs-a-100m-valuation-after-hitting-2m-arr-in-its-first-two-weeks/",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T10:43:33.343912"
+  },
+  "5a6c1e63f7653df0c1ec8e5a7a82b4f3": {
+    "id": "5a6c1e63f7653df0c1ec8e5a7a82b4f3",
+    "headline": "Anthropic launches Claude Sonnet 4.5, its best AI model for coding",
+    "source": "TechCrunch AI",
+    "source_url": "https://techcrunch.com/2025/09/29/anthropic-launches-claude-sonnet-4-5-its-best-ai-model-for-coding/",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T10:43:33.343940"
+  },
+  "ec9d6f087e938e735a758c8a1978e5ea": {
+    "id": "ec9d6f087e938e735a758c8a1978e5ea",
+    "headline": "Brave updates its AI-powered search with a detailed answers feature",
+    "source": "TechCrunch AI",
+    "source_url": "https://techcrunch.com/2025/09/29/brave-updates-its-ai-powered-search-with-a-detailed-answers-feature/",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T10:43:33.343966"
+  },
+  "6ad7f645573deb893ba5a301337fa306": {
+    "id": "6ad7f645573deb893ba5a301337fa306",
+    "headline": "OpenAI rolls out safety routing system, parental controls\u00a0on ChatGPT",
+    "source": "TechCrunch AI",
+    "source_url": "https://techcrunch.com/2025/09/29/openai-rolls-out-safety-routing-system-parental-controls-on-chatgpt/",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T10:43:33.343998"
+  },
+  "b39e312f5cec4a5e031931f73629acfc": {
+    "id": "b39e312f5cec4a5e031931f73629acfc",
+    "headline": "This week\u2019s bundle savings: Founder and Investor Pass deals for TechCrunch Disrupt 2025",
+    "source": "TechCrunch AI",
+    "source_url": "https://techcrunch.com/2025/09/29/founder-investor-only-bundle-pass-deal-for-techcrunch-disrupt-2025-this-week/",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T10:43:33.344039"
+  },
+  "d0a1d1a6b8c32428e03d398a341f4089": {
+    "id": "d0a1d1a6b8c32428e03d398a341f4089",
+    "headline": "In crowded voice AI market, OpenAI bets on instruction-following and expressive speech to win enterprise adoption",
+    "source": "VentureBeat AI",
+    "source_url": "https://venturebeat.com/ai/in-crowded-voice-ai-market-openai-bets-on-instruction-following-and-expressive-speech-to-win-enterprise-adoption/",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T10:43:35.717418"
+  },
+  "86cfa8c006ea1bc8215a6f3482062235": {
+    "id": "86cfa8c006ea1bc8215a6f3482062235",
+    "headline": "Nous Research drops Hermes 4 AI models that outperform ChatGPT without content restrictions",
+    "source": "VentureBeat AI",
+    "source_url": "https://venturebeat.com/ai/nous-research-drops-hermes-4-ai-models-that-outperform-chatgpt-without-content-restrictions/",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T10:43:35.717451"
+  },
+  "d5d80c4f626fedf9b9323ab57f195e08": {
+    "id": "d5d80c4f626fedf9b9323ab57f195e08",
+    "headline": "Nvidia\u2019s $46.7B Q2 proves the platform, but its next fight is ASIC economics on inference",
+    "source": "VentureBeat AI",
+    "source_url": "https://venturebeat.com/ai/nvidias-strong-q2-results-cant-mask-the-asic-challenge-in-their-future/",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T10:43:35.717476"
+  },
+  "d7027c8e2e7c87e23fb60c71a9c73487": {
+    "id": "d7027c8e2e7c87e23fb60c71a9c73487",
+    "headline": "Forget data labeling: Tencent\u2019s R-Zero shows how LLMs can train themselves",
+    "source": "VentureBeat AI",
+    "source_url": "https://venturebeat.com/ai/forget-data-labeling-tencents-r-zero-shows-how-llms-can-train-themselves/",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T10:43:35.717496"
+  },
+  "6f86b5029cb9a9ab10ee448998e34458": {
+    "id": "6f86b5029cb9a9ab10ee448998e34458",
+    "headline": "Enterprise data infrastructure proves resilient as Snowflake\u2019s 32% growth defies tech slowdown fears",
+    "source": "VentureBeat AI",
+    "source_url": "https://venturebeat.com/data-infrastructure/enterprise-data-infrastructure-proves-resilient-as-snowflakes-32-growth-defies-tech-slowdown-fears/",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T10:43:35.717519"
+  },
+  "7c3679f1127398ba50ed3127362f7d09": {
+    "id": "7c3679f1127398ba50ed3127362f7d09",
+    "headline": "OpenAI\u2013Anthropic cross-tests expose jailbreak and misuse risks \u2014 what enterprises must add to GPT-5 evaluations",
+    "source": "VentureBeat AI",
+    "source_url": "https://venturebeat.com/ai/openai-anthropic-cross-tests-expose-jailbreak-and-misuse-risks-what-enterprises-must-add-to-gpt-5-evaluations/",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T10:43:35.717544"
+  },
+  "4eab2fdce1611156497d6415a22483ec": {
+    "id": "4eab2fdce1611156497d6415a22483ec",
+    "headline": "Salesforce builds \u2018flight simulator\u2019 for AI agents as 95% of enterprise pilots fail to reach production",
+    "source": "VentureBeat AI",
+    "source_url": "https://venturebeat.com/ai/salesforce-builds-flight-simulator-for-ai-agents-as-95-of-enterprise-pilots-fail-to-reach-production/",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T10:43:35.717566"
+  },
+  "22d1de8db1c78ad7327433ec3e52ac37": {
+    "id": "22d1de8db1c78ad7327433ec3e52ac37",
+    "headline": "LLM-Based Support for Diabetes Diagnosis: Opportunities, Scenarios, and Challenges with GPT-5",
+    "source": "ArXiv CS.CL",
+    "source_url": "https://arxiv.org/abs/2509.21450",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T10:43:37.031323"
+  },
+  "e2989f01a0f3036ecc45fedeabf5f9a1": {
+    "id": "e2989f01a0f3036ecc45fedeabf5f9a1",
+    "headline": "Diagnosing the Performance Trade-off in Moral Alignment: A Case Study on Gender Stereotypes",
+    "source": "ArXiv CS.CL",
+    "source_url": "https://arxiv.org/abs/2509.21456",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T10:43:37.031364"
+  },
+  "ad91ad6509d93c31d7702fa3f57db1be": {
+    "id": "ad91ad6509d93c31d7702fa3f57db1be",
+    "headline": "A State-of-the-Art SQL Reasoning Model using RLVR",
+    "source": "ArXiv CS.CL",
+    "source_url": "https://arxiv.org/abs/2509.21459",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T10:43:37.031388"
+  },
+  "7d9f107da0372ff53c88d99b0fa910fa": {
+    "id": "7d9f107da0372ff53c88d99b0fa910fa",
+    "headline": "Learning to Reason with Mixture of Tokens",
+    "source": "ArXiv CS.CL",
+    "source_url": "https://arxiv.org/abs/2509.21482",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T10:43:37.031412"
+  },
+  "5dd44b7e867d42f337336a8c1e4ed611": {
+    "id": "5dd44b7e867d42f337336a8c1e4ed611",
+    "headline": "Dual-Head Reasoning Distillation: Improving Classifier Accuracy with Train-Time-Only Reasoning",
+    "source": "ArXiv CS.CL",
+    "source_url": "https://arxiv.org/abs/2509.21487",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T10:43:37.031435"
+  },
+  "245074f86b7dc7fa61aaa7942d15955e": {
+    "id": "245074f86b7dc7fa61aaa7942d15955e",
+    "headline": "Google rolls out brighter four-color gradient \u2018G\u2019 logo to all platforms; reflects company\u2019s \u2018evolution in the AI era\u2019 - The Times of India",
+    "source": "Google Tech News",
+    "source_url": "https://timesofindia.indiatimes.com/technology/tech-news/google-rolls-out-brighter-four-color-gradient-g-logo-to-all-platforms-reflects-companys-evolution-in-the-ai-era/articleshow/124224151.cms",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T11:24:09.884336"
+  },
+  "eb433dad3cb44bb54d298780233b9d10": {
+    "id": "eb433dad3cb44bb54d298780233b9d10",
+    "headline": "What Healthcare Tech Has Leaders Most Energized Right Now?",
+    "source": "Google Tech News",
+    "source_url": "https://medcitynews.com/2025/09/healthcare-technology-data-innovation/",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T12:23:20.674214"
+  },
+  "2b79de5d4aaf5b5449a46df78b98594b": {
+    "id": "2b79de5d4aaf5b5449a46df78b98594b",
+    "headline": "Are you sure? Measuring models bias in content moderation through uncertainty",
+    "source": "ArXiv CS.CL",
+    "source_url": "https://arxiv.org/abs/2509.22699",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T12:23:35.345187"
+  },
+  "68dc2160e0770137e7366e432e743a2c": {
+    "id": "68dc2160e0770137e7366e432e743a2c",
+    "headline": "AccessEval: Benchmarking Disability Bias in Large Language Models",
+    "source": "ArXiv CS.CL",
+    "source_url": "https://arxiv.org/abs/2509.22703",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T12:23:35.345241"
+  },
+  "eef945384d757e4d2474e5095a34ca34": {
+    "id": "eef945384d757e4d2474e5095a34ca34",
+    "headline": "RAR$^2$: Retrieval-Augmented Medical Reasoning via Thought-Driven Retrieval",
+    "source": "ArXiv CS.CL",
+    "source_url": "https://arxiv.org/abs/2509.22713",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T12:23:35.345268"
+  },
+  "2ccbc82d874bc00d4ad276bace4835ed": {
+    "id": "2ccbc82d874bc00d4ad276bace4835ed",
+    "headline": "TRUEBench: Can LLM Response Meet Real-world Constraints as Productivity Assistant?",
+    "source": "ArXiv CS.CL",
+    "source_url": "https://arxiv.org/abs/2509.22715",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T12:23:35.345296"
+  },
+  "98932b1d681b7b7939756a5e863a4df1": {
+    "id": "98932b1d681b7b7939756a5e863a4df1",
+    "headline": "Multi-Modal Sentiment Analysis with Dynamic Attention Fusion",
+    "source": "ArXiv CS.CL",
+    "source_url": "https://arxiv.org/abs/2509.22729",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T12:23:35.345322"
+  },
+  "7993a5f55d7c860d2b7a089fd842cc31": {
+    "id": "7993a5f55d7c860d2b7a089fd842cc31",
+    "headline": "Enabling Approximate Joint Sampling in Diffusion LMs",
+    "source": "ArXiv CS.CL",
+    "source_url": "https://arxiv.org/abs/2509.22738",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T12:23:35.345346"
+  },
+  "39912cd1b05267894743122fb09ffb80": {
+    "id": "39912cd1b05267894743122fb09ffb80",
+    "headline": "Painless Activation Steering: An Automated, Lightweight Approach for Post-Training Large Language Models",
+    "source": "ArXiv CS.CL",
+    "source_url": "https://arxiv.org/abs/2509.22739",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T12:23:35.345370"
+  },
+  "55b19460fc4eb081eccef6dfbce2d13a": {
+    "id": "55b19460fc4eb081eccef6dfbce2d13a",
+    "headline": "MIRAGE: Multi-hop Reasoning with Ambiguity Evaluation for Illusory Questions",
+    "source": "ArXiv CS.CL",
+    "source_url": "https://arxiv.org/abs/2509.22750",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T12:23:35.345396"
+  },
+  "0a15e50099b7d194bb30d53fc1aebc72": {
+    "id": "0a15e50099b7d194bb30d53fc1aebc72",
+    "headline": "ML2B: Multi-Lingual ML Benchmark For AutoML",
+    "source": "ArXiv CS.CL",
+    "source_url": "https://arxiv.org/abs/2509.22768",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T12:23:35.345422"
+  },
+  "0d3fa2991252594f6b872297992c6f90": {
+    "id": "0d3fa2991252594f6b872297992c6f90",
+    "headline": "ArFake: A Multi-Dialect Benchmark and Baselines for Arabic Spoof-Speech Detection",
+    "source": "ArXiv CS.CL",
+    "source_url": "https://arxiv.org/abs/2509.22808",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T12:23:35.345448"
+  },
+  "b3e1384c03e97f726b80494853c0446e": {
+    "id": "b3e1384c03e97f726b80494853c0446e",
+    "headline": "Ah well, that's the way it goes.",
+    "source": "Reddit ChatGPT",
+    "source_url": "https://www.reddit.com/r/ChatGPT/comments/1nu3ia9/ah_well_thats_the_way_it_goes/",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T14:15:05.700424"
+  },
+  "bb4487eb7c1d377a5f26123e0e069cb0": {
+    "id": "bb4487eb7c1d377a5f26123e0e069cb0",
+    "headline": "Imagine with claude is legendary",
+    "source": "Reddit Anthropic",
+    "source_url": "https://www.reddit.com/r/Anthropic/comments/1nu4glx/imagine_with_claude_is_legendary/",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T14:15:06.345652"
+  },
+  "36451b0ced2763a27b0c3aa8da65cb4c": {
+    "id": "36451b0ced2763a27b0c3aa8da65cb4c",
+    "headline": "Codex Hype is Out of Control. We Need a Clean Up",
+    "source": "Reddit Anthropic",
+    "source_url": "https://www.reddit.com/r/Anthropic/comments/1nu41w2/codex_hype_is_out_of_control_we_need_a_clean_up/",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T14:15:06.345683"
+  },
+  "99b1e163e7de4ea43c8cdc1541eeb886": {
+    "id": "99b1e163e7de4ea43c8cdc1541eeb886",
+    "headline": "Long conversation reminder is still on Sonnet 4.5",
+    "source": "Reddit Anthropic",
+    "source_url": "https://www.reddit.com/r/Anthropic/comments/1nu3x47/long_conversation_reminder_is_still_on_sonnet_45/",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T14:15:06.345694"
+  },
+  "6871cd3e8fd68e91adc1447c86fd4e7f": {
+    "id": "6871cd3e8fd68e91adc1447c86fd4e7f",
+    "headline": "Faculty Spotlight: Nichole Niebur",
+    "source": "Google Tech News",
+    "source_url": "https://www.unomaha.edu/college-of-information-science-and-technology/news/2025/09/faculty-spotlight-article-nichole-niebur.php",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T14:15:06.713314"
+  },
+  "f081a852b53b085951cac5a0f68ad1dd": {
+    "id": "f081a852b53b085951cac5a0f68ad1dd",
+    "headline": "BeeX Seeks Funding for Hovering AUV",
+    "source": "Google Tech News",
+    "source_url": "https://www.marinetechnologynews.com/news/seeks-funding-hovering-653610",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T14:15:06.713343"
+  },
+  "e08449d80273b2f4ea8f214520b0370e": {
+    "id": "e08449d80273b2f4ea8f214520b0370e",
+    "headline": "California bill regulating top AI companies signed into law",
+    "source": "Google Tech News",
+    "source_url": "https://www.nbcnews.com/tech/tech-news/ai-law-california-ca-companies-regulation-newsom-rcna234562",
+    "content_type": "NEWS",
+    "ingested_at": "2025-09-30T14:15:06.713382"
+  }
+}

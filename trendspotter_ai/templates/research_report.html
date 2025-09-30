@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ tool_name }} - Intelligence Report</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            background: #ffffff;
+            color: #000000;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        h1 {
+            font-size: 48px;
+            font-weight: 700;
+            margin-bottom: 10px;
+            letter-spacing: -1px;
+        }
+        
+        .verdict {
+            display: inline-block;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .verdict.VERIFIED_REAL {
+            background: #000;
+            color: #fff;
+        }
+        
+        .verdict.HYPE {
+            background: #ff4444;
+            color: #fff;
+        }
+        
+        .verdict.PROMISING {
+            background: #ffeb3b;
+            color: #000;
+        }
+        
+        .section {
+            margin: 40px 0;
+            padding: 30px;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+        }
+        
+        .section-title {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-size: 14px;
+        }
+        
+        .evidence-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        
+        .evidence-item {
+            padding: 20px;
+            background: #f5f5f5;
+            border-radius: 4px;
+        }
+        
+        .evidence-source {
+            font-size: 12px;
+            color: #666;
+            text-transform: uppercase;
+            margin-bottom: 5px;
+        }
+        
+        .evidence-detail {
+            font-size: 16px;
+            color: #000;
+        }
+        
+        .flags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin: 20px 0;
+        }
+        
+        .flag {
+            padding: 6px 12px;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+        
+        .flag.green {
+            background: #e8f5e9;
+            color: #2e7d32;
+        }
+        
+        .flag.red {
+            background: #ffebee;
+            color: #c62828;
+        }
+        
+        .recommendation {
+            padding: 30px;
+            background: #000;
+            color: #fff;
+            border-radius: 8px;
+            text-align: center;
+        }
+        
+        .recommendation h2 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+        
+        .recommendation p {
+            font-size: 18px;
+            opacity: 0.8;
+        }
+        
+        .metrics {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin: 30px 0;
+        }
+        
+        .metric {
+            text-align: center;
+        }
+        
+        .metric-value {
+            font-size: 36px;
+            font-weight: 700;
+        }
+        
+        .metric-label {
+            font-size: 12px;
+            color: #666;
+            text-transform: uppercase;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>{{ tool_name }}</h1>
+        <span class="verdict {{ research.verdict }}">{{ research.verdict }}</span>
+        
+        <!-- Evidence Section -->
+        <div class="section">
+            <div class="section-title">Evidence Collected</div>
+            <div class="evidence-grid">
+                {% for evidence in research.evidence %}
+                <div class="evidence-item">
+                    <div class="evidence-source">{{ evidence.source }}</div>
+                    <div class="evidence-detail">{{ evidence.detail }}</div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        
+        <!-- Signals -->
+        <div class="section">
+            <div class="section-title">Signals</div>
+            <div class="flags">
+                {% for flag in research.green_flags %}
+                <span class="flag green">✓ {{ flag }}</span>
+                {% endfor %}
+                {% for flag in research.red_flags %}
+                <span class="flag red">✗ {{ flag }}</span>
+                {% endfor %}
+            </div>
+        </div>
+        
+        <!-- Metrics -->
+        <div class="metrics">
+            <div class="metric">
+                <div class="metric-value">{{ research.mentions.rss }}</div>
+                <div class="metric-label">RSS Mentions</div>
+            </div>
+            <div class="metric">
+                <div class="metric-value">{{ research.mentions.github }}</div>
+                <div class="metric-label">GitHub Repos</div>
+            </div>
+            <div class="metric">
+                <div class="metric-value">{{ (research.confidence * 100)|int }}%</div>
+                <div class="metric-label">Confidence</div>
+            </div>
+        </div>
+        
+        <!-- Recommendation -->
+        {% if evaluation %}
+        <div class="recommendation">
+            <h2>{{ evaluation.final_recommendation|default('WAIT')|replace('_', ' ') }}</h2>
+            <p>Payback period: {{ evaluation.payback_months|default('Unknown') }} months</p>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>

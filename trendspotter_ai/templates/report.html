@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GenAI Intelligence Report</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        /* ====== Category / Signal / Feed ====== */
+        .category-badge {
+            display: inline-flex;
+            align-items: center;
+            padding: 4px 12px;
+            border-radius: 16px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-right: 8px;
+        }
+        .category-AI-LLM { background: linear-gradient(135deg, #667eea, #764ba2); color: white; }
+        .category-Creative-Assets { background: linear-gradient(135deg, #f093fb, #f5576c); color: white; }
+        .category-Dev-Tooling { background: linear-gradient(135deg, #4facfe, #00f2fe); color: white; }
+        .category-Data-Analytics { background: linear-gradient(135deg, #43e97b, #38f9d7); color: white; }
+        .category-Security { background: linear-gradient(135deg, #fa709a, #fee140); color: white; }
+        .category-Messaging-Comms { background: linear-gradient(135deg, #30cfd0, #330867); color: white; }
+        .category-default { background: #718096; color: white; }
+
+        .signal-badge {
+            display: inline-flex;
+            align-items: center;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 0.8rem;
+            background: #edf2f7;
+            color: #2d3748;
+            margin-left: 6px;
+            font-weight: 600;
+        }
+
+        .feed-indicator {
+            display: inline-flex;
+            align-items: center;
+            padding: 3px 10px;
+            background: #f7fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 12px;
+            font-size: 0.8rem;
+            margin-left: 8px;
+        }
+        .feed-high { background: #fef5e7; border-color: #f39c12; color: #e67e22; font-weight: 600; }
+        .feed-medium { background: #ebf8ff; border-color: #3182ce; color: #2c5282; }
+
+        .signal-PROMISING { border-left: 4px solid #9f7aea; }
+        .signal-PROMISING .signal-badge { background: linear-gradient(135deg, #9f7aea, #805ad5); color: #fff; }
+
+        /* ====== Capabilities ====== */
+        .capabilities-list {
+            margin: 10px 0;
+            padding: 10px;
+            background: #f8f9fa;
+            border-radius: 8px;
+        }
+        .capability-chip {
+            display: inline-block;
+            padding: 3px 10px;
+            margin: 3px;
+            background: white;
+            border: 1px solid #dee2e6;
+            border-radius: 12px;
+            font-size: 0.85rem;
+            color: #495057;
+        }
+
+        /* ====== Insights Grid ====== */
+        .tool-insights {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+            margin: 12px 0;
+            padding: 12px;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            border-radius: 8px;
+        }
+        .insight-item { display: flex; flex-direction: column; }
+        .insight-label {
+            font-size: 0.75rem; color: #6c757d;
+            text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 2px;
+        }
+        .insight-value { font-size: 0.95rem; font-weight: 600; color: #212529; }
+
+        /* ====== Human-friendly Sections ====== */
+        .section-block {
+            margin: 12px 0; padding: 12px;
+            background: #ffffff; border: 1px solid #edf2f7; border-radius: 8px;
+        }
+        .section-title {
+            display: inline-flex; align-items: center; gap: 6px;
+            font-size: 0.92rem; font-weight: 700; color: #2d3748; margin-bottom: 6px;
+        }
+        .use-cases ul { margin: 6px 0 0 18px; }
+        .use-cases li { margin: 6px 0; line-height: 1.35; }
+
+        /* ====== Action & Badges ====== */
+        .action-box {
+            margin-top: 10px; padding: 12px;
+            background: #f0fff4; border: 1px solid #c6f6d5; border-radius: 8px;
+        }
+        .pill {
+            display: inline-flex; align-items: center;
+            padding: 3px 10px; border-radius: 999px; font-size: 0.78rem; font-weight: 700;
+            border: 1px solid transparent; margin-right: 6px;
+        }
+        .priority-immediate { background: #fed7d7; color: #c53030; }
+        .priority-this_quarter, .priority-this-quarter { background: #feebc8; color: #c05621; }
+        .priority-monitor { background: #ebf8ff; color: #2b6cb0; }
+        .priority-ignore { background: #edf2f7; color: #4a5568; }
+
+        .rec-adopt_now, .rec-adopt-now { background: #c6f6d5; color: #2f855a; }
+        .rec-immediate_pilot, .rec-immediate-pilot { background: #e6fffa; color: #0987a0; }
+        .rec-pilot { background: #faf089; color: #975a16; }
+        .rec-experiment { background: #e9d8fd; color: #6b46c1; }
+        .rec-assess, .rec-monitor, .rec-track { background: #edf2f7; color: #4a5568; }
+
+        /* ====== Footer ====== */
+        .tool-footer {
+            display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
+            margin-top: 12px; padding-top: 10px; border-top: 1px dashed #e2e8f0;
+        }
+        .source-link { text-decoration: none; }
+        .badge {
+            padding: 3px 8px; border-radius: 8px; font-size: 0.75rem; font-weight: 700;
+        }
+        .fluff-indicator, .confidence { font-size: 0.8rem; color: #718096; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="/" class="back-link">← Back to Dashboard</a>
+
+        <h1>📊 RSS Feed Intelligence Report</h1>
+        <p class="subtitle">AI-analyzed tools from {{ tools|length }} RSS feed items</p>
+
+        <div class="filters">
+            <button class="filter-btn active" onclick="filterTools('all')">All ({{ tools|length }})</button>
+            <button class="filter-btn" onclick="filterTools('GAME_CHANGING')">🚨 Game Changing</button>
+            <button class="filter-btn" onclick="filterTools('HIGH')">⚡ High Signal</button>
+            <button class="filter-btn" onclick="filterTools('PROMISING')">✨ Promising</button>
+            <button class="filter-btn" onclick="filterTools('MODERATE')">📊 Moderate</button>
+            <button class="filter-btn" onclick="filterByActionability()">🎯 Most Actionable</button>
+            <button class="filter-btn" onclick="filterByFeedPopularity()">🔥 Trending in Feeds</button>
+        </div>
+
+        <div class="tools-grid">
+            {% for tool in tools %}
+            <div class="tool-card signal-{{ tool.get('signal_strength', 'MODERATE') }}"
+                 data-signal="{{ tool.get('signal_strength', 'MODERATE') }}"
+                 data-actionability="{{ tool.get('actionability_score', 0) }}"
+                 data-feed-bonus="{{ tool.get('feed_bonus', 0) }}">
+
+                <!-- Header with category and feed indicator -->
+                <div class="tool-header" style="display:flex; align-items:center; justify-content:space-between; gap:10px;">
+                    <h3 style="margin:0;">{{ tool.get('name', 'Unknown Tool') }}</h3>
+                    <div class="header-badges" style="display:flex; align-items:center; flex-wrap:wrap; gap:6px;">
+                        {% set category_class = tool.get('category', 'General').replace('/', '-').replace(' ', '-') %}
+                        <span class="category-badge category-{{ category_class }} category-default">
+                            {% if 'AI' in tool.get('category', '') %}🤖
+                            {% elif 'Creative' in tool.get('category', '') %}🎨
+                            {% elif 'Dev' in tool.get('category', '') %}⚙️
+                            {% elif 'Data' in tool.get('category', '') %}📊
+                            {% elif 'Security' in tool.get('category', '') %}🔒
+                            {% elif 'Messaging' in tool.get('category', '') %}💬
+                            {% else %}📦{% endif %}
+                            {{ tool.get('category', 'General') }}
+                        </span>
+                        <span class="signal-badge">{{ tool.get('signal_strength', 'MODERATE')|replace('_', ' ') }}</span>
+                        {% if tool.get('feed_repetition') and tool.get('feed_repetition') != 'low' %}
+                        <span class="feed-indicator feed-{{ tool.get('feed_repetition') }}" title="Appearing frequently across RSS feeds">
+                            🔥 {{ tool.get('feed_repetition')|upper }}
+                            {% if tool.get('feed_bonus', 0) > 0 %}
+                                (+{{ tool.get('feed_bonus')|int }})
+                            {% endif %}
+                        </span>
+                        {% endif %}
+                    </div>
+                </div>
+
+                <!-- Primary Capabilities -->
+                {% if tool.get('primary_capabilities') and tool.get('primary_capabilities')|length > 0 %}
+                <div class="capabilities-list">
+                    <strong style="font-size: 0.85rem; color: #495057;">Core Capabilities:</strong>
+                    {% for capability in tool.get('primary_capabilities', [])[:5] %}
+                    <span class="capability-chip">{{ capability }}</span>
+                    {% endfor %}
+                </div>
+                {% endif %}
+
+                <!-- Tool Insights Grid -->
+                <div class="tool-insights">
+                    <div class="insight-item">
+                        <span class="insight-label">Source</span>
+                        <span class="insight-value">📡 {{ tool.get('source', 'Unknown') }}</span>
+                    </div>
+                    <div class="insight-item">
+                        <span class="insight-label">Time to Value</span>
+                        <span class="insight-value">⏱️ {{ tool.get('time_to_value', tool.get('implementation_effort', 'Unknown')) }}</span>
+                    </div>
+                    <div class="insight-item">
+                        <span class="insight-label">Setup Cost</span>
+                        <span class="insight-value cost-{{ tool.get('cost_benefit', {}).get('setup_cost', 'unknown') }}">
+                            💰 {{ tool.get('cost_benefit', {}).get('setup_cost', 'Unknown') }}
+                        </span>
+                    </div>
+                    <div class="insight-item">
+                        <span class="insight-label">Monthly</span>
+                        <span class="insight-value">{{ tool.get('cost_benefit', {}).get('monthly_cost', '?') }}</span>
+                    </div>
+                </div>
+
+                <!-- Human-first: What / Why / What you can do -->
+                <div class="section-block">
+                    <div class="section-title">⚙️ What it does</div>
+                    <p style="font-size:0.95rem; line-height:1.45;">
+                        {{ tool.get('what_it_does', tool.get('description', 'Description unavailable')) }}
+                    </p>
+                </div>
+
+                <div class="section-block">
+                    <div class="section-title">🌟 Why it matters</div>
+                    <p style="font-size:0.95rem; line-height:1.45;">
+                        {{ tool.get('why_important', 'Pending analysis...') }}
+                    </p>
+                </div>
+
+                {% if tool.get('use_cases') and tool.get('use_cases')|length > 0 %}
+                <div class="section-block use-cases">
+                    <div class="section-title">🚀 What you can do with it</div>
+                    <ul>
+                        {% for case in tool.get('use_cases')[:3] %}
+                        <li>
+                            <b>{{ case.get('use_case', 'Use case') }}</b> — {{ case.get('implementation', 'How it’s used') }}
+                            {% if case.get('time_saved') %} (saves {{ case.get('time_saved') }}){% endif %}
+                            {% if case.get('team_size_appropriate') %} — best for {{ case.get('team_size_appropriate') }} teams{% endif %}
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                {% endif %}
+
+                {% if tool.get('alternatives') and tool.get('alternatives')|length > 0 %}
+                <div class="section-block">
+                    <div class="section-title">🔁 Alternatives to consider</div>
+                    <p style="margin:0;">
+                        {% for alt in tool.get('alternatives')[:5] %}
+                            <span class="pill" style="background:#f7fafc; color:#2d3748; border-color:#e2e8f0;">{{ alt }}</span>
+                        {% endfor %}
+                    </p>
+                </div>
+                {% endif %}
+
+                {% if tool.get('warnings') and tool.get('warnings')|length > 0 %}
+                <div class="section-block" style="background:#fff5f5; border-color:#fed7d7;">
+                    <div class="section-title">⚠️ Gotchas</div>
+                    <ul style="margin:6px 0 0 18px;">
+                        {% for w in tool.get('warnings')[:3] %}
+                        <li>{{ w }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                {% endif %}
+
+                <!-- Decision / Next Step -->
+                <div class="action-box">
+                    <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
+                        {% set pr = tool.get('priority', 'MONITOR')|lower %}
+                        {% set rec = tool.get('recommendation', 'ASSESS')|lower %}
+                        <span class="pill priority-{{ pr }}">{{ tool.get('priority', 'MONITOR')|replace('_',' ') }}</span>
+                        <span class="pill rec-{{ rec }}">{{ tool.get('recommendation', 'ASSESS')|replace('_',' ') }}</span>
+                        {% if tool.get('roi_timeline') %}
+                        <span class="pill" style="background:#ebf8ff; color:#2b6cb0;">ROI: {{ tool.get('roi_timeline') }}</span>
+                        {% endif %}
+                        {% set conf = tool.get('confidence_in_assessment', 0.5) %}
+                        <span class="pill" style="background:#f7fafc; color:#2d3748;">
+                            Confidence:
+                            {% if conf >= 0.8 %} High
+                            {% elif conf >= 0.6 %} Medium
+                            {% else %} Low
+                            {% endif %}
+                        </span>
+                    </div>
+                    <div style="margin-top:8px;">
+                        <strong>🎯 Next Step:</strong>
+                        <p style="margin: 6px 0 0;">
+                            {{ tool.get('immediate_action', 'Review for potential implementation') }}
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Footer with metadata -->
+                <div class="tool-footer">
+                    <a href="{{ tool.get('source_url', '#') }}" target="_blank" class="source-link">🔗 Source</a>
+                    {% if tool.get('tool_confirmed') %}
+                    <span class="badge" style="background: #28a745; color: white;" title="AI confirmed this is a tool">✅ Tool</span>
+                    {% endif %}
+                    {% if tool.get('fluff_ratio') and tool.get('fluff_ratio') > 0.1 %}
+                    <span class="fluff-indicator" title="Marketing fluff detected and filtered">
+                        🎭 {{ (tool.get('fluff_ratio', 0) * 100)|int }}% fluff
+                    </span>
+                    {% endif %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <script>
+    function filterTools(signal) {
+        const cards = document.querySelectorAll('.tool-card');
+        const buttons = document.querySelectorAll('.filter-btn');
+
+        buttons.forEach(btn => btn.classList.remove('active'));
+        event.target.classList.add('active');
+
+        cards.forEach(card => {
+            const cardSignal = card.getAttribute('data-signal');
+            if (signal === 'all' || cardSignal === signal) {
+                card.style.display = 'block';
+            } else {
+                card.style.display = 'none';
+            }
+        });
+    }
+
+    function filterByActionability() {
+        const cards = Array.from(document.querySelectorAll('.tool-card'));
+        const buttons = document.querySelectorAll('.filter-btn');
+
+        buttons.forEach(btn => btn.classList.remove('active'));
+        event.target.classList.add('active');
+
+        // Sort by actionability score and show top 10
+        cards.sort((a, b) => {
+            const scoreA = parseFloat(a.getAttribute('data-actionability')) || 0;
+            const scoreB = parseFloat(b.getAttribute('data-actionability')) || 0;
+            return scoreB - scoreA;
+        });
+
+        cards.forEach((card, index) => {
+            if (index < 10) {
+                card.style.display = 'block';
+                card.style.order = index;
+            } else {
+                card.style.display = 'none';
+            }
+        });
+    }
+
+    function filterByFeedPopularity() {
+        const cards = Array.from(document.querySelectorAll('.tool-card'));
+        const buttons = document.querySelectorAll('.filter-btn');
+
+        buttons.forEach(btn => btn.classList.remove('active'));
+        event.target.classList.add('active');
+
+        // Sort by feed bonus (popularity) and show top 20 that actually trend
+        cards.sort((a, b) => {
+            const bonusA = parseInt(a.getAttribute('data-feed-bonus')) || 0;
+            const bonusB = parseInt(b.getAttribute('data-feed-bonus')) || 0;
+            return bonusB - bonusA;
+        });
+
+        cards.forEach((card, index) => {
+            const bonus = parseInt(card.getAttribute('data-feed-bonus')) || 0;
+            if (bonus > 0 && index < 20) {
+                card.style.display = 'block';
+                card.style.order = index;
+            } else {
+                card.style.display = 'none';
+            }
+        });
+    }
+    </script>
+</body>
+</html>

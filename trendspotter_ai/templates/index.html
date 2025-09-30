@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GenAI Intelligence Platform</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 GenAI Intelligence Platform</h1>
+        <p class="subtitle">Transform GenAI noise into actionable intelligence for your product team</p>
+        
+        <div class="stats">
+            <div class="stat-box">
+                <h3>Tools Tracked</h3>
+                <p class="big-number">{{ tool_count }}</p>
+            </div>
+            <div class="stat-box">
+                <h3>Active Workflows</h3>
+                <p class="big-number">{{ workflow_count }}</p>
+            </div>
+            <div class="stat-box">
+                <h3>Signal Strength</h3>
+                <p class="big-number">85%</p>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>📊 Reports</h2>
+            <div class="actions">
+                <a href="/report" class="btn">📊 Generic Intelligence Report</a>
+                <button onclick="runAnalysis()" class="btn">🔄 Refresh Intelligence</button>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>🎯 Workflow Analysis</h2>
+            <p>Match tools to your specific workflows:</p>
+            <div class="workflow-grid">
+                <a href="/workflow/customer_support_bot" class="workflow-card">
+                    <h3>Customer Support Bot</h3>
+                    <p>AI-powered tier-1 support automation</p>
+                </a>
+                <a href="/workflow/code_assistant" class="workflow-card">
+                    <h3>Developer Code Assistant</h3>
+                    <p>AI pair programmer for dev productivity</p>
+                </a>
+                <a href="/workflow/content_generation" class="workflow-card">
+                    <h3>Marketing Content</h3>
+                    <p>Automated content creation</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+    function runAnalysis() {
+        const btn = event.target;
+        btn.disabled = true;
+        btn.textContent = '⏳ Running...';
+        
+        fetch('/api/run-analysis')
+            .then(r => r.json())
+            .then(data => {
+                alert(`Ingested ${data.new_tools} new tools!`);
+                btn.disabled = false;
+                btn.textContent = '🔄 Refresh Intelligence';
+                location.reload();
+            })
+            .catch(err => {
+                alert('Error running analysis');
+                btn.disabled = false;
+                btn.textContent = '🔄 Refresh Intelligence';
+            });
+    }
+    </script>
+</body>
+</html>

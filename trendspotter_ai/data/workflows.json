@@ -1,0 +1,85 @@
+{
+  "workflows": [
+    {
+      "id": "customer_support_bot",
+      "name": "Customer Support Automation",
+      "description": "AI-powered tier-1 support automation to handle common customer queries",
+      
+      "required_keywords": ["chat", "api", "conversation", "support", "enterprise"],
+      
+      "constraints": {
+        "max_latency_ms": 500,
+        "min_accuracy": 0.85,
+        "requires_eu_hosting": false,
+        "max_monthly_cost": 10000,
+        "requires_fine_tuning": false
+      },
+      
+      "weights": {
+        "creativity": 0.1,
+        "technicality": 0.3,
+        "businessImpact": 0.6
+      },
+      
+      "benefit_factors": {
+        "response_speed": 0.8,
+        "accuracy": 0.9,
+        "cost_reduction": 0.7
+      },
+      
+      "cost_factors": {
+        "implementation_complexity": 0.3,
+        "ongoing_maintenance": 0.2,
+        "training_required": 0.4
+      },
+      
+      "risk_aversion": 0.7
+    },
+    {
+      "id": "code_assistant",
+      "name": "Developer Code Assistant",
+      "description": "AI pair programmer for development team productivity",
+      
+      "required_keywords": ["code", "programming", "api", "completion", "developer"],
+      
+      "constraints": {
+        "max_latency_ms": 1000,
+        "min_accuracy": 0.8,
+        "requires_eu_hosting": false,
+        "max_monthly_cost": 5000,
+        "requires_fine_tuning": false
+      },
+      
+      "weights": {
+        "creativity": 0.3,
+        "technicality": 0.6,
+        "businessImpact": 0.1
+      },
+      
+      "risk_aversion": 0.5
+    },
+    {
+      "id": "content_generation",
+      "name": "Marketing Content Generation",
+      "description": "Automated content creation for marketing campaigns",
+      
+      "required_keywords": ["content", "writing", "marketing", "api", "generation"],
+      
+      "constraints": {
+        "max_latency_ms": 5000,
+        "min_accuracy": 0.7,
+        "requires_eu_hosting": false,
+        "max_monthly_cost": 3000,
+        "requires_fine_tuning": false
+      },
+      
+      "weights": {
+        "creativity": 0.7,
+        "technicality": 0.1,
+        "businessImpact": 0.2
+      },
+      
+      "risk_aversion": 0.3
+    }
+  ]
+}
